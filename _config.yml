@@ -5,6 +5,7 @@ collections:
   clientes:
     title: Clients
     output: true
+    permalink: clients
   posts:
     title: Posts
     output: true
