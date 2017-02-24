@@ -11,7 +11,10 @@
 
   </head>
   <body>
-    {{site.pages}}
+    
+    
+    
+
     <header class="header container">
   <div class="row row--header">
     <div class="col col--header">
@@ -22,18 +25,11 @@
     <div class="col col--header">
       <nav class="nav">
         <ul class="nav__items">
-          <li class="nav__item">
-            <a href="/building/" class="fade">Ventures</a>
-          </li>
-          <li class="nav__item">
-            <a href="/helping/" class="fade">Consulting</a>
-          </li>
-          <li class="nav__item">
-            <a href="/about/" class="fade">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="/thinking/" class="fade">Blog</a>
-          </li>
+          {{ for page in site.pages }}
+            <li class="nav__item">
+              <a href="/{{page.permalink}}" class="fade">{{page.title}}</a>
+            </li>
+          {{ endfor }}
         </ul>
       </nav>
     </div>
