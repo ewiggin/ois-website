@@ -5,4 +5,4 @@ permalink: "/"
 layout: homepage
 ---
 
-Hello
+Welcome
