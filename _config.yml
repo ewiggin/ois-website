@@ -3,8 +3,9 @@ title: Obres i Serveis Carmelo
 timezone: Europe/Madrid
 collections:
   clientes:
-    title: Clientes
+    title: Clients
     output: true
+    permalink: clients
   posts:
     title: Posts
     output: true
