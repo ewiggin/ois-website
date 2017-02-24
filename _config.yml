@@ -11,6 +11,8 @@ collections:
   projects:
     title: Projects
     output: true
+    permalink: projectes
+    title_1: lol
   uploads:
     title: Uploads
     output: true
