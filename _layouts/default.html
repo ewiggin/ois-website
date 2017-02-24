@@ -4,42 +4,69 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <base href="https://oak.is">
     <title>RedCatCode :: {{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/all.css" />
-    <style type="text/css"> body { background: #fff; color: #222; } ::-moz-selection { background-color: #222; color: #fff; } ::selection { background-color: #222; color: #fff; } .highlight, pre, code, input[type="email"][disabled] { background: #222; color: #fff; } .bg { color: #fff; } .fg { color: #222; } .background--bg { background: #fff; } .background--fg, hr { background: #222; } .border--bg { border-color: #fff; } .border--fg { border-color: #222; } path, polygon { fill: #222; } p a, .post__content a, .title a:not(.permalink), .underline { background-image: linear-gradient(to bottom, transparent 50%, #222 50%); } </style>
+    <style type="text/css">
+      body {
+        margin-left: 240px;
+        background-color: #fff;
+        color: red;
+      }
+      body > header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 240px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+      }
+
+      body > header {
+            background-color: red;
+            color:#fff;
+      }
+
+      article {
+          padding: 40px 40px 0;
+      }
+      article {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 20px 20px 0;
+      }
+    </style>
 
   </head>
   <body>
 
-
-
-
-    <header class="header container">
-  <div class="row row--header">
-    <div class="col col--header">
-      <a href="/" class="header__logo fade">
+    <header>
+      <a href="/" class="logo">
         RedCatCode
+        <span>Coders, etc.</span>
       </a>
-    </div>
-    <div class="col col--header">
-      <nav class="nav">
-        <ul class="nav__items">
-          {% for page in site.pages %}
+      <nav role="main">
+        {% for page in site.pages %}
             <li class="nav__item">
               <a href="{{page.url}}" class="fade">{{page.title}}</a>
             </li>
           {% endfor %}
-        </ul>
       </nav>
-    </div>
-  </div>
-</header>
+      <ul class="social">
+          <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
+          <li><a href="http://instagram.com/frankchimero"><img src="/images/instagram.svg" alt="Instagram"></a></li>
+          <li><a href="http://twitter.com/frank_chimero"><img src="/images/twitter.svg" alt="Twitter"></a></li>
+      </ul>
+    </header>
+    <article>
+     {{content}}
+    </article>
+    <footer>
+      <div>© Copyright 2011—2017, RedCatCode</div>
+    </footer>
 
-    <div class="container">
-      {{content}}
-    </div>
-
-    <script src="/assets/js/all.js"></script>
   </body>
 </html>
