@@ -2,6 +2,9 @@
 title: Obres i Serveis Carmelo
 timezone: Europe/Madrid
 collections:
+  clientes:
+    title: Clientes
+    output: true
   posts:
     title: Posts
     output: true
