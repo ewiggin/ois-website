@@ -11,9 +11,6 @@ collections:
   projects:
     title: Projects
     output: true
-  schedule:
-    title: Schedule
-    output: true
   uploads:
     title: Uploads
     output: true
