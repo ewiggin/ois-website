@@ -28,6 +28,6 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: other
 permalink: pretty
 theme: jekyll-theme-cayman
