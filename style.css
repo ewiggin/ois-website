@@ -1,8 +1,11 @@
 /* MAIN */
 body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   font-family: "Raleway";
-  background: url("/uploads/image2.jpg");
-  background-size: 100%;
+  background: url(/uploads/image2.jpg);
+  background-size: auto 100%;
   background-repeat: no-repeat;
 }
 h2 {
