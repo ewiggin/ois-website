@@ -1,6 +1,9 @@
 /* MAIN */
 body {
   font-family: "Raleway";
+  background: url("_uploads/image.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 h2 {
   text-transform: uppercase;
@@ -8,6 +11,7 @@ h2 {
   font-weight: 900;
   color: #F4BC16;
   line-height: 1;
+  padding: 20px;
 }
 
 h2 span {
