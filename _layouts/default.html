@@ -27,16 +27,15 @@
 
 <body>
   <div class="site-container">
-      {% include topbar.html %}
-    <h2>
-      Obres i serveis
-      <span>Carmelo</span>
-    </h2>
+    {% include topbar.html %}
+
+
 
     <article>
       {{content}}
     </article>
 
+    {% include contact.html %}
 
     {% include footer.html %}
   </div>
