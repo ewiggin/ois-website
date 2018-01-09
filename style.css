@@ -1,7 +1,7 @@
 /* MAIN */
 body {
   font-family: "Raleway";
-  background: url("_uploads/image.jpg");
+  background: url("/uploads/image.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
