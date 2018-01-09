@@ -36,46 +36,46 @@ layout: default
       <div class="row page-margin-top-section">
         <div class="column column-1-3">
           <div class="team-box single">
-            <a href="index.html%3Fpage=team_mark_whilberg.html" title="CARMELO RODRIGUEZ">
-              <img alt="CARMELO RODRIGUEZ" src="images/samples/480x320/team_04.png" style="display: block;">
+            <a href="#" title="CARMELO RODRIGUEZ">
+              <img alt="CARMELO RODRIGUEZ" src="/assets/images/samples/480x320/team_04.png" style="display: block;">
             </a>
             <div class="team-content">
               <h4>
-                <a href="index.html%3Fpage=team_mark_whilberg.html" title="CARMELO RODRIGUEZ">CARMELO RODRIGUEZ</a>
-                <span>CO-FOUNDER</span>
+                <a href="#" title="CARMELO RODRIGUEZ">CARMELO RODRIGUEZ</a>
+                <span>FUNDADOR</span>
               </h4>
             </div>
             <ul class="social-icons" style="left: 109px; display: none; top: 247px;">
-              <li><a title="" target="_blank" href="http://facebook.com/QuanticaLabs" class="social-facebook">&nbsp;</a></li>
-              <li><a title="" target="_blank" href="http://twitter.com/quanticalabs" class="social-twitter">&nbsp;</a></li>
-              <li><a title="" target="_blank" href="http://themeforest.net/user/QuanticaLabs/portfolio?ref=QuanticaLabs" class="social-linkedin">&nbsp;</a></li>
+              <li><a title="" target="_blank" href="http://facebook.com/" class="social-facebook">&nbsp;</a></li>
+              <li><a title="" target="_blank" href="http://twitter.com/" class="social-twitter">&nbsp;</a></li>
+              <li><a title="" target="_blank" href="http://linkedin.com" class="social-linkedin">&nbsp;</a></li>
             </ul>
           </div>
         </div>
         <div class="column column-1-3">
-          <h3 class="box-header">RESUME</h3>
+          <h3 class="box-header">RESUMEN</h3>
           <table class="margin-top-40 align-left">
             <tbody>
               <tr>
-                <td>Name: CARMELO RODRIGUEZ</td>
+                <td>Nombre: CARMELO RODRIGUEZ</td>
               </tr>
               <tr>
-                <td>Date of birth: 02 May 1968</td>
+                <td>Nacimiento: 02 May 1968</td>
               </tr>
               <tr>
-                <td>Address: 272 Linden Avenue, Winter Park</td>
+                <td>Dirección: 272 Linden Avenue, Winter Park</td>
               </tr>
               <tr>
-                <td>Email: <a href="mailto:mark.whilberg@mail.com">mark.whilberg@mail.com</a></td>
+                <td>Email: <a href="mailto:obresiserveiscarmelo@gmail.com">obresiserveiscarmelo@gmail.com</a></td>
               </tr>
               <tr>
-                <td>Phone: +149 75 23 222 35</td>
+                <td>Tel: +34 607 240 726</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="column column-1-3">
-          <h3 class="box-header">PROFILE</h3>
+          <h3 class="box-header">PERFIL</h3>
           <p class="description t1 margin-top-34">Founded by Kevin Smith back in 2000, Renovate has established itself as one of the greatest and prestigous providers of construction focused interior renovation services and building.</p>
           <p class="description t1">We provide a professional renovation and installation services with a real focus on customer satisfaction. Our installations are carried out by fully trained staff to the highest professional standards. We can help you bring new life to existing rooms and develop unused spaces, from initial design and project specification to archieving a high end finish.</p>
         </div>
@@ -110,7 +110,7 @@ layout: default
       </div>
       <div class="row full-width gray page-padding-top-section page-margin-top-section padding-bottom-50">
         <div class="row">
-          <h3 class="box-header">MY SKILLS</h3>
+          <h3 class="box-header">HABILIDADES</h3>
         </div>
         <div class="row margin-top-40">
           <div class="column column-1-2">
@@ -149,7 +149,7 @@ layout: default
       </div>
       <div class="row page-padding-top-section">
         <div class="column column-2-3">
-          <h3 class="box-header">MY EXPERIENCE</h3>
+          <h3 class="box-header">EXPERIENCIA</h3>
           <div class="timeline-item vertical-align-table margin-top-40">
             <div class="timeline-left vertical-align-cell">
               <div class="label-container">
