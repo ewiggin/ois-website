@@ -4,32 +4,4 @@ timezone: Europe/Madrid
 sass:
   sass_dir: _sass
   style: compressed
-collections:
-  clientes:
-    title: Clients
-    output: true
-    permalink: clients
-  posts:
-    title: Posts
-    output: true
-  projects:
-    title: Projects
-    output: true
-    permalink: projectes
-    title_1: lol
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
 permalink: pretty
