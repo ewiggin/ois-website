@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 <style>
-  body > article {
-    background-image: url("/home-bkg.jpg");
+  body {
+    background-image: url("https://redcatcode.com/uploads/Obres%20i%20Serveis%20Carmelo.png");
   }
 </style>
