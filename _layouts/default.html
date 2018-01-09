@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/style.css" />
   <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="/assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/reset.css">
   <link rel="stylesheet" type="text/css" href="/assets/style/superfish.css">
   <link rel="stylesheet" type="text/css" href="/assets/style/prettyPhoto.css">
   <link rel="stylesheet" type="text/css" href="/assets/style/jquery.qtip.css">
@@ -29,11 +29,11 @@
   <div class="site-container">
     {% include topbar.html %}
 
+    {% include header.html %}
 
 
-    <article>
-      {{content}}
-    </article>
+    {{ content }}
+
 
     {% include contact.html %}
 
