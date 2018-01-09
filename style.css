@@ -1,4 +1,3 @@
-@import '_sass/colors'
 
 /* MAIN */
 body {
@@ -14,13 +13,13 @@ h2 {
   text-transform: uppercase;
   font-size: 37px;
   font-weight: 900;
-  color: $primary;
+  color: #F4BC16;
   line-height: 1;
   padding: 20px;
 }
 
 h2 span {
-  color: $secondary;
+  color: #222;
   display:block;
 }
 
