@@ -4,16 +4,8 @@ body {
   margin: 0;
   font-family: "Raleway";
 }
-h2, .logo {
-  text-transform: uppercase;
-  font-size: 37px;
-  font-weight: 900;
-  color: #F4BC16;
-  line-height: 1;
-  padding: 20px;
-}
 
-h2 span, .logo span {
+.logo span {
   color: #222;
   display:block;
 }
