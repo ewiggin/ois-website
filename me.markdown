@@ -1,5 +1,5 @@
 ---
-title: Equip
+title: Me
 date: 2018-01-01 13:13:00 +01:00
 layout: default
 ---
