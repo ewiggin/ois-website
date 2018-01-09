@@ -1,3 +1,9 @@
+---
+title: Equip
+date: 2018-01-01 13:13:00 +01:00
+layout: default
+---
+
 <div class="theme-page padding-bottom-70">
     <div class="row gray full-width page-header vertical-align-table">
       <div class="row full-width padding-top-bottom-50 vertical-align-cell">
