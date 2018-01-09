@@ -40,6 +40,7 @@ hr {
 
 address {
   text-transform: none;
+  font-size: 14px;
 }
 
 address a {
