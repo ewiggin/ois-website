@@ -4,10 +4,6 @@ date: 2017-02-24 13:13:00 +01:00
 layout: default
 ---
 
-# Projectes destacats
-Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció. Us podeu fer una idea del nivell de complexitat i de qualitat que arribo a realitzar.
-
-
 <div class="row page-margin-top-section">
   <div class="row">
     <h2 class="box-header">Projectes</h2>
@@ -17,7 +13,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
     <div class="caroufredsel-wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 1200px; height: 485px; margin: 0px; overflow: hidden;"><ul class="blog horizontal-carousel three-columns autoplay-0 pause_on_hover-1 re-preloader-hr-carousel_0" style="display: block; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 8400px; height: 485px;">
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="What a Difference a Few Months Make" class="post-image">
-          <img src="images/samples/750x500/image_10.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_10.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>25</h2>2015</li>
@@ -29,7 +25,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Kitchen And Living Room Renovation" class="post-image">
-          <img src="images/samples/750x500/image_07.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_07.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>17</h2>2015</li>
@@ -41,7 +37,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Signs You Need Drain Repair Services" class="post-image">
-          <img src="images/samples/750x500/image_05.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_05.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>17</h2>2015</li>
@@ -53,7 +49,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Steps To Improve Joint Placement" class="post-image">
-          <img src="images/samples/750x500/image_09.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_09.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>17</h2>2015</li>
@@ -74,7 +70,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Installation Of Click Laminate Flooring" class="post-image">
-          <img src="images/samples/750x500/image_01.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_01.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>17</h2>2015</li>
@@ -86,7 +82,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="What a Difference a Few Months Make" class="post-image">
-          <img src="images/samples/750x500/image_06.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_06.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>10</h2>2015</li>
@@ -98,7 +94,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Kitchen And Living Room Renovation" class="post-image">
-          <img src="images/samples/750x500/image_03.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_03.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>10</h2>2015</li>
@@ -110,7 +106,7 @@ Aqui exposo una recopilació de projectes destacats que m'omplen de satisfacció
       </li>
       <li class="column column-1-3">
         <a href="index.html%3Fpage=post.html" title="Signs You Need Drain Repair Services" class="post-image">
-          <img src="images/samples/750x500/image_08.jpg" alt="">
+          <img src="/assets/images/samples/750x500/image_08.jpg" alt="">
         </a>
         <ul class="post-details">
           <li class="date template-calendar">Apr<h2>10</h2>2015</li>
