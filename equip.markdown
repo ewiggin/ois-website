@@ -1,5 +1,5 @@
 ---
-title: Me
+title: Equip
 date: 2018-01-01 13:13:00 +01:00
 layout: default
 ---
@@ -13,11 +13,11 @@ layout: default
           </div>
           <div class="page-header-right">
             <div class="bread-crumb-container">
-              <label>You Are Here:</label>
+              <label>Estas aqui:</label>
               <ul class="bread-crumb">
                 <li>
-                  <a title="Our Team" href="index.html%3Fpage=team.html">
-                    OUR TEAM
+                  <a title="Our Team" href="#">
+                    EQUIPO
                   </a>
                 </li>
                 <li class="separator">
