@@ -1,6 +1,9 @@
 ---
 title: Obres i Serveis Carmelo
 timezone: Europe/Madrid
+sass:
+  sass_dir: _sass
+  style: compressed
 collections:
   clientes:
     title: Clients
