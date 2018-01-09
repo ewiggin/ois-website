@@ -5,6 +5,9 @@ body {
   font-family: "Raleway";
 }
 
+.logo {
+  text-transform: uppercase;
+}
 .logo span {
   color: #222;
   display:block;
