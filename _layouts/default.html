@@ -1,38 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RedCatCode :: {{ page.title }}</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    <header>
-      <a href="/" class="logo">
-        RedCatCode
-        <span>Coders, etc.</span>
-      </a>
-      <nav role="main">
-        {% for page in site.pages %}
-            <li class="nav__item">
-              <a href="{{page.url}}" class="fade">{{page.title}}</a>
-            </li>
-          {% endfor %}
-      </nav>
-      <ul class="social">
-          <li><a href="mailto:mario@redcatcode.com"><img src="/images/mail.svg" alt="Email"></a></li>
-          <li><a href="http://instagram.com/frankchimero"><img src="/images/instagram.svg" alt="Instagram"></a></li>
-          <li><a href="http://twitter.com/frank_chimero"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-      </ul>
-    </header>
-    <article>
-      {{content}}
-    </article>
-    <footer>
-      <div>© Copyright 2011—2017, RedCatCode</div>
-    </footer>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Obres i serveis Carmelo :: {{ page.title }}</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  </body>
+<body>
+  <article>
+    {{content}}
+  </article>
+  <footer>
+    <div>© Copyright 2018, RedCatCode</div>
+  </footer>
+
+</body>
+
 </html>
