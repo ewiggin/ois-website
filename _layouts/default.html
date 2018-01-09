@@ -9,18 +9,37 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/style.css" />
   <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/superfish.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/jquery.qtip.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/animations.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/responsive.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/odometer-theme-default.css">
+  <!--fonts-->
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/streamline-small/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/streamline-large/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/template/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/social/styles.css">
+
 </head>
 
 <body>
-  <!-- logo -->
-  <h2>
-    Obres i serveis
-    <span>Carmelo</span>
-  </h2>
+  <div class="site-container">
+      {% include topbar.html %}
+    <h2>
+      Obres i serveis
+      <span>Carmelo</span>
+    </h2>
 
-  <article>
-    {{content}}
-  </article>
+    <article>
+      {{content}}
+    </article>
+
+
+    {% include footer.html %}
+  </div>
 </body>
 
 </html>

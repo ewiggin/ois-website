@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: provisional
 ---
 
 <div class="building">
