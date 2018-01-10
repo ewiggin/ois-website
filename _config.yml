@@ -3,6 +3,8 @@ title: Obres i Serveis Carmelo
 timezone: Europe/Madrid
 url: https://obresiserveiscarmelo.com
 permalink: pretty
+plugins:
+  - jekyll-sitemap
 collections:
   projectes:
     output: true
