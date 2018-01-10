@@ -1,6 +1,112 @@
 ---
-title: Titol del projecte
+title: Renovació d'interiors
 date: 2017-02-24 13:13:00 +01:00
 image: /assets/images/samples/270x180/image_04.jpg
+type: Renovacions
+client: Anònim
+finish_at: Agost 2017
+size: 320m2
+price: 7,600€
+
 layout: default
 ---
+
+<div class="theme-page padding-bottom-66">
+	<div class="row gray full-width page-header vertical-align-table">
+		<div class="row full-width padding-top-bottom-50 vertical-align-cell">
+			<div class="row">
+				<div class="page-header-left">
+					<h1>{{title}}</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix">
+		<div class="row margin-top-70">
+			<div class="column column-1-2">
+				<a href="images/samples/750x500/image_01.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+					<img src="images/samples/570x380/image_01.jpg" alt="img" style="display: block;">
+				</a>
+				<div class="row margin-top-30">
+					<div class="column column-1-2">
+						<a href="images/samples/750x500/image_06.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+							<img src="images/samples/570x380/image_06.jpg" alt="img" style="display: block;">
+						</a>
+					</div>
+					<div class="column column-1-2">
+						<a href="images/samples/750x500/image_02.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+							<img src="images/samples/570x380/image_02.jpg" alt="img" style="display: block;">
+						</a>
+					</div>
+				</div>
+				<div class="row margin-top-30">
+					<a href="images/samples/750x500/image_07.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+					<img src="images/samples/570x380/image_07.jpg" alt="img" style="display: block;">
+				</a>
+				</div>
+			</div>
+			<div class="column column-1-2">
+				<h3 class="box-header">BREU DESCRIPCIÓ</h3>
+				<p class="description t1"></p>
+				<h4 class="box-header page-margin-top">D'UNA ULLADA</h4>
+				<table class="margin-top-40">
+					<tbody>
+						<tr>
+							<td>Tipus de projecte</td>
+							<td>{{type}}</td>
+						</tr>
+						<tr>
+							<td>Client</td>
+							<td>{{client}}</td>
+						</tr>
+						<tr>
+							<td>Data de finalització</td>
+							<td>{{finish_at}}</td>
+						</tr>
+						<tr>
+							<td>Mida del projecte</td>
+							<td>{{size}}</td>
+						</tr>
+						<tr>
+							<td>Valor del contracte</td>
+							<td>{{price}}</td>
+						</tr>
+					</tbody>
+				</table>
+				<h4 class="box-header page-margin-top">ÀMBIT DE TREBALL</h4>
+				<div class="tabs small no-scroll align-left clearfix margin-top-40 ui-tabs ui-widget ui-widget-content ui-corner-all">
+					<ul class="tabs-navigation small gray clearfix ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+						<li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="client-info" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
+							<a href="/{{url}}#client-info" title="Client Info" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">
+								Client Info
+							</a>
+						</li>
+						<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="scope-of-work" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false">
+							<a href="/{{url}}#scope-of-work" title="Scope Of Work" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">
+								Scope Of Work
+							</a>
+						</li>
+					</ul>
+					<div id="client-info" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="false">
+						<p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p>
+						<ul class="list margin-top-20">
+							<li class="template-bullet">Financial Responsibility to Our Clients</li>
+							<li class="template-bullet">Superior Quality and Craftsmanship</li>
+							<li class="template-bullet">Quality and Value to the <a href="index.html%3Fpage=projects.html">Projects We Deliver</a></li>
+							<li class="template-bullet">Highest Standards in <a href="index.html%3Fpage=cost_calculator.html">Cost Control</a></li>
+						</ul>
+					</div>
+					<div id="scope-of-work" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="true" style="display: none;">
+						<p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p>
+						<ul class="list margin-top-20">
+							<li class="template-bullet">Financial Responsibility to Our Clients</li>
+							<li class="template-bullet">Superior Quality and Craftsmanship</li>
+							<li class="template-bullet">On Time and on Budget</li>
+							<li class="template-bullet">Real Focus on Customer Satisfaction</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
