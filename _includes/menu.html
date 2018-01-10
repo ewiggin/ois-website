@@ -1,0 +1,42 @@
+<li>
+    <a href="/serveis" title="Services">
+      SERVEIS
+    </a>
+    {% if site.serveis.size > 0 %}
+    <ul>
+      {% for servei in site.serveis %}
+        <li>
+          <a href="{{servei.url}}" title="{{servei.name}}">
+            {{servei.name}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+  <li>
+    <a href="/projectes" title="Projects">
+      PROJECTES
+    </a>
+    {% if site.data.categories.size > 0 %}
+      <ul>
+        {% for category in site.data.categories %}
+          <li>
+            <a title="{{ category.name }}" href="/projectes#filter-{{category.permalink}}">
+              {{ category.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+  <li>
+    <a href="/equip" title="EQUIP">
+      EQUIP
+    </a>
+  </li>
+  <li class="left-flyout">
+    <a href="/contacte" title="Contact">
+      CONTACTE
+    </a>
+  </li>
