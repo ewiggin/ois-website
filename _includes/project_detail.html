@@ -34,7 +34,9 @@
         </div>
         <div class="column column-1-2">
           <h3 class="box-header">BREU DESCRIPCIÓ</h3>
-          <p class="description t1"></p>
+          <p class="description t1">
+            {{page.description}}
+          </p>
           <h4 class="box-header page-margin-top">D'UNA ULLADA</h4>
           <table class="margin-top-40">
             <tbody>
@@ -64,12 +66,12 @@
           <div class="tabs small no-scroll align-left clearfix margin-top-40 ui-tabs ui-widget ui-widget-content ui-corner-all">
             <ul class="tabs-navigation small gray clearfix ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
               <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="client-info" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
-                <a href="/{{url}}#client-info" title="Client Info" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">
+                <a href="/{{page.url}}#client-info" title="Client Info" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">
                   Client Info
                 </a>
               </li>
               <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="scope-of-work" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false">
-                <a href="/{{url}}#scope-of-work" title="Scope Of Work" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">
+                <a href="/{{page.url}}#scope-of-work" title="Scope Of Work" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">
                   Scope Of Work
                 </a>
               </li>

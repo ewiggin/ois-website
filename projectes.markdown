@@ -17,18 +17,25 @@ layout: default
 	<div class="clearfix">
 		<div class="row">
 			<ul class="tabs-navigation small gray isotope-filters margin-top-70">
-				<li><a class="selected" href="/projectes#filter-*" title="All Projects">All Projects</a></li>
-				<li><a href="/projectes#filter-renovation" title="Renovation">Renovation</a></li>
-				<li><a href="/projectes#filter-design-and-build" title="Design and Build">Design and Build</a></li>
-				<li><a href="/projectes#filter-painting" title="Painting">Painting</a></li>
-				<li><a href="/projectes#filter-pavers" title="Pavers">Pavers</a></li>
-				<li><a href="/projectes#filter-solar-systems" title="Solar Systems">Solar Systems</a></li>
+				<li><a class="selected" href="{{page.url}}#filter-*" title="TOTS">TOTS</a></li>
+        {% for category in site.data.categories %}
+          <li>
+            <a title="{{ category.name }}" href="{{page.url}}#{{ category.permalink }}">
+              {{ category.name }}
+            </a>
+          </li>
+        {% endfor %}
+				<!-- <li><a href="{{page.url}}#filter-renovation" title="Renovation">Renovation</a></li>
+				<li><a href="{{page.url}}#filter-design-and-build" title="Design and Build">Design and Build</a></li>
+				<li><a href="{{page.url}}#filter-painting" title="Painting">Painting</a></li>
+				<li><a href="{{page.url}}#filter-pavers" title="Pavers">Pavers</a></li>
+				<li><a href="{{page.url}}#filter-solar-systems" title="Solar Systems">Solar Systems</a></li> -->
 			</ul>
 			<ul class="projects-list isotope" style="position: relative; height: 630px;">
         {% for item in site.projects %}
           <li class="pavers" style="position: absolute; left: 300px; top: 0px;">
             <a href="{{item.url}}" title="{{ item.title }}">
-              <img src="{{item.image}}" alt="">
+              <img src="{{item.cover}}" alt="">
             </a>
             <div class="view align-center">
               <div class="vertical-align-table">
