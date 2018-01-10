@@ -18,38 +18,17 @@
               <a href="/serveis" title="Services">
                 SERVEIS
               </a>
-              <!--<ul>
-                <li>
-                  <a href="/serveis" title="Reforma d'interiors">
-                    Reforma d'interiors
-                  </a>
-                </li>
-                <li>
-                  <a href="/serveis" title="Design and Build">
-                    Design and Build
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html%3Fpage=service_tiling_painting.html" title="Design and Build">
-                    Tiling and Painting
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html%3Fpage=service_paver_walkways.html" title="Paver Walkways">
-                    Paver Walkways
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html%3Fpage=service_household_repairs.html" title="Household Repairs">
-                    Household Repairs
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html%3Fpage=service_solar_systems.html" title="Solar Systems">
-                    Solar Systems
-                  </a>
-                </li>
-              </ul>-->
+              {% if site.serveis.size > 0 %}
+              <ul>
+                {% for servei in site.serveis %}
+                  <li>
+                    <a href="{{servei.url}}" title="{{servei.name}}">
+                      {{servei.name}}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </li>
             <li>
               <a href="/projectes" title="Projects">
