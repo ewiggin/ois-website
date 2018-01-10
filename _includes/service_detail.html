@@ -49,16 +49,6 @@
             {% endfor %}
           </ul>
 
-
-          <h6 class="box-header page-margin-top">Fulletons</h6>
-          <ul class="buttons margin-top-30">
-            <li class="template-arrow-circle-down">
-              <a href="#" title="Download Brochure">Descarregar Fulletó</a>
-            </li>
-            <li class="template-arrow-circle-down">
-              <a href="#" title="Download Summary">Descarregar resum</a>
-            </li>
-          </ul>
         </div>
         <div class="column column-3-4">
           <div class="row">
@@ -73,12 +63,14 @@
               </a>
             </div>
           </div>
+          {% if page.description %}
           <div class="row page-margin-top">
             <div class="column-1-1">
               <h3 class="box-header">DESCRIPCIÓ DEL SERVEI</h3>
               <p class="description t1">{{page.description}}</p>
             </div>
           </div>
+          {% endif %}
           <div class="row page-margin-top padding-bottom-70">
             {% include why_us.html %}
             {% include faq.html %}
