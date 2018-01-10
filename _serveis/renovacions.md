@@ -2,6 +2,7 @@
 name: Renovacions
 claim: Ens il · lusiona poder veure com llueixen els nostres projectes al llarg d'aquests anys.
 image: 
+icon: sl-small-bricks
 description: "El nostre objectiu és assegurar que el resultat final ens ompli de satisfacció, a nosaltres i per descomptat al client final.
 
 Aportem a les reformes certs valors, i el nostre mètode de treball, amb l'objectiu de: entendre les necessitats del client i del seu projecte, assegurar la transparència en el pressupost, flexibilitat en el treball i sobretot serietat.

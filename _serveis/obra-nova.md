@@ -1,5 +1,6 @@
 ---
 name: Obra nova
+icon: sl-small-house-2
 claim: Realitzar aquests treballs ens permet gaudir i assaborir la paleta en la seva paraula més plena.
 image: 
 description: "La nostra estructura ens apropa al client i la nostra experiència ens permet integrar la construcció tradicional amb la introducció de nous, i moderns projectes.
