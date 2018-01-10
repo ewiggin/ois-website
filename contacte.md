@@ -6,7 +6,9 @@ layout: default
 
 <div class="theme-page padding-bottom-66">
 	<div class="clearfix">
-		<div class="row full-width"></div>
+		<div class="row full-width">
+      <div class="contact-map" id="map" data-scroll-wheel="0" data-draggable="0" style="position: relative; overflow: hidden;"></div>
+    </div>
 		<div class="row page-margin-top">
 			<div class="column column-1-3">
 				<ul class="features-list">
