@@ -5,7 +5,7 @@
     {% if site.serveis.size > 0 %}
     <ul>
       {% for servei in site.serveis %}
-        <li>
+        <li class="{% 'selected' if page.url contains servei.url %}">
           <a href="{{servei.url}}" title="{{servei.name}}">
             {{servei.name}}
           </a>
