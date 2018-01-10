@@ -1,11 +1,11 @@
 - name: Renovacions
-  permalink: filter-renovation
+  permalink: renovation
 
 - name: Disseny i construcció
-  permalink: filter-design-and-build
+  permalink: design-and-build
 
 - name: Paviments
-  permalink: filter-pavers
+  permalink: pavers
 
 - name: Sistemes solars
-  permalink: filter-solar-systems
+  permalink: solar-systems

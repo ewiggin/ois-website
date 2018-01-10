@@ -9,6 +9,7 @@ image3: /assets/images/samples/750x500/image_02.jpg
 image4: /assets/images/samples/750x500/image_07.jpg
 
 type: Renovacions
+category: renovation
 client: Anònim
 finish_at: Agost 2017
 size: 320m2

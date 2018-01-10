@@ -20,7 +20,7 @@ layout: default
 				<li><a class="selected" href="{{page.url}}#filter-*" title="TOTS">TOTS</a></li>
         {% for category in site.data.categories %}
           <li>
-            <a title="{{ category.name }}" href="{{page.url}}#{{ category.permalink }}">
+            <a title="{{ category.name }}" href="{{page.url}}#filter-{{ category.permalink }}">
               {{ category.name }}
             </a>
           </li>
@@ -28,7 +28,7 @@ layout: default
 			</ul>
 			<ul class="projects-list isotope" style="position: relative; height: 630px;">
         {% for item in site.projectes %}
-          <li class="pavers" style="position: absolute; left: 300px; top: 0px;">
+          <li class="{{item.categroy}}" style="position: absolute; left: 300px; top: 0px;">
             <a href="{{item.url}}" title="{{ item.title }}">
               <img src="{{item.cover}}" alt="">
             </a>
