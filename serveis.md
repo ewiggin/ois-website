@@ -20,7 +20,7 @@ layout: default
         {% for servei in site.serveis %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           {% if thecycle == 'odd' %}
-            </ul><ul class="services-list services-icons services-items-border row clearfix">
+            </ul><ul class="services-list services-icons services-items-border row clearfix margin-top-30">
           {% endif %}
           <li>
             <a href="{{servei.url}}" title="{{servei.name}}">
