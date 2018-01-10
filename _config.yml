@@ -3,6 +3,6 @@ title: Obres i Serveis Carmelo
 timezone: Europe/Madrid
 permalink: pretty
 collections:
-  projects:
+  projectes:
     output: true
     permalink: /:collection/:name
