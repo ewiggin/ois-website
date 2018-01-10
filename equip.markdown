@@ -37,7 +37,7 @@ layout: default
         <div class="column column-1-3">
           <div class="team-box single">
             <a href="#" title="CARMELO RODRIGUEZ">
-              <img alt="CARMELO RODRIGUEZ" src="/assets/images/samples/480x320/team_04.png" style="display: block;">
+              <img alt="CARMELO RODRIGUEZ" src="/uploads/carmelo.jpg" style="display: block;">
             </a>
             <div class="team-content">
               <h4>
