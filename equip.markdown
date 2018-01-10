@@ -17,7 +17,7 @@ layout: default
               <ul class="bread-crumb">
                 <li>
                   <a title="Our Team" href="#">
-                    EQUIPO
+                    EQUIP
                   </a>
                 </li>
                 <li class="separator">
@@ -53,31 +53,28 @@ layout: default
           </div>
         </div>
         <div class="column column-1-3">
-          <h3 class="box-header">RESUMEN</h3>
+          <h3 class="box-header">RESUM</h3>
           <table class="margin-top-40 align-left">
             <tbody>
               <tr>
-                <td>Nombre: CARMELO RODRIGUEZ</td>
+                <td>Nom: CARMELO RODRIGUEZ</td>
               </tr>
               <tr>
-                <td>Nacimiento: 02 May 1968</td>
-              </tr>
-              <tr>
-                <td>Dirección: 272 Linden Avenue, Winter Park</td>
+                <td>Adressa: Viladecavalls, Barcelona</td>
               </tr>
               <tr>
                 <td>Email: <a href="mailto:obresiserveiscarmelo@gmail.com">obresiserveiscarmelo@gmail.com</a></td>
               </tr>
               <tr>
-                <td>Tel: +34 607 240 726</td>
+                <td>Telèfon: +34 607 240 726</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="column column-1-3">
           <h3 class="box-header">PERFIL</h3>
-          <p class="description t1 margin-top-34">Founded by Kevin Smith back in 2000, Renovate has established itself as one of the greatest and prestigous providers of construction focused interior renovation services and building.</p>
-          <p class="description t1">We provide a professional renovation and installation services with a real focus on customer satisfaction. Our installations are carried out by fully trained staff to the highest professional standards. We can help you bring new life to existing rooms and develop unused spaces, from initial design and project specification to archieving a high end finish.</p>
+          <p class="description t1 margin-top-34">Fundada per Carmelo Rodríguez, ens hem consolidat com un dels majors i prestigiosos proveïdors de serveis de construcció i renovació d'interiorisme centrats en la construcció.</p>
+          <p class="description t1">Oferim serveis de renovació i instal·lació professionals amb un enfocament real en la satisfacció del client. Les nostres instal·lacions es realitzen amb personal perfectament qualificat i amb els millors estàndards professionals. Podem ajudar-vos a portar una vida nova a les sales existents i desenvolupar espais no utilitzats, des del disseny inicial i l'especificació del projecte fins a aconseguir un final d'alta gamma.</p>
         </div>
       </div>
       <div class="row top-border page-margin-top-section full-width">
@@ -85,68 +82,30 @@ layout: default
           <div class="column column-1-3">
             <ul class="features-list">
               <li class="sl-small-key">
-                <h4>TURNKEY</h4>
-                <p>We combine quality workmanship, superior knowledge and low prices.</p>
+                <h4>CLAU EN MÀ</h4>
+                <p>Combinem mà d'obra de qualitat, coneixements superiors i preus ajustats.</p>
               </li>
             </ul>
           </div>
           <div class="column column-1-3">
             <ul class="features-list">
               <li class="sl-small-person">
-                <h4>RESOURCES</h4>
-                <p>We have the experience, personel and resources to make.</p>
+                <h4>RECURSOS</h4>
+                <p>Tenim l'experiència, el personal i els recursos per realitzar el teu projecte.</p>
               </li>
             </ul>
           </div>
           <div class="column column-1-3">
             <ul class="features-list">
               <li class="sl-small-trolley">
-                <h4>SUPPLY</h4>
-                <p>Work with us involves a carefully planned series of steps.</p>
+                <h4>SUBMINISTRAMENT</h4>
+                <p>Treballa amb nosaltres amb una sèrie de passos acuradament planificats.</p>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="row full-width gray page-padding-top-section page-margin-top-section padding-bottom-50">
-        <div class="row">
-          <h3 class="box-header">HABILIDADES</h3>
-        </div>
-        <div class="row margin-top-40">
-          <div class="column column-1-2">
-            <div class="progress-bar">
-              <div class="single-bar">
-                <small class="bar-label">Interior Renovation <span class="bar-label-units">95%</span></small>
-                <span data-percentage-value="95" class="bar animated-element progress" style="width: 95%;"></span>
-              </div>
-              <div class="single-bar">
-                <small class="bar-label">Paver Walkways <span class="bar-label-units">72%</span></small>
-                <span data-percentage-value="72" class="bar animated-element progress" style="width: 72%;"></span>
-              </div>
-              <div class="single-bar">
-                <small class="bar-label">Tiling and Painting <span class="bar-label-units">60%</span></small>
-                <span data-percentage-value="60" class="bar animated-element progress" style="width: 60%;"></span>
-              </div>
-            </div>
-          </div>
-          <div class="column column-1-2">
-            <div class="progress-bar">
-              <div class="single-bar">
-                <small class="bar-label">Solar Systems  <span class="bar-label-units">75%</span></small>
-                <span data-percentage-value="75" class="bar animated-element progress" style="width: 75%;"></span>
-              </div>
-              <div class="single-bar">
-                <small class="bar-label">Household Repairs  <span class="bar-label-units">62%</span></small>
-                <span data-percentage-value="62" class="bar animated-element progress" style="width: 62%;"></span>
-              </div>
-              <div class="single-bar">
-                <small class="bar-label">Design and Build  <span class="bar-label-units">82%</span></small>
-                <span data-percentage-value="82" class="bar animated-element progress" style="width: 82%;"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!--
       <div class="row page-padding-top-section">
         <div class="column column-2-3">
           <h3 class="box-header">EXPERIENCIA</h3>
@@ -203,7 +162,7 @@ layout: default
           </div>
         </div>
         <div class="column column-1-3">
-          <h3 class="box-header">TESTIMONIALS</h3>
+          <h3 class="box-header">TESTIMONIS</h3>
           <div class="row testimonials-container type-small margin-top-40">
             <div class="re-carousel-pagination" style="display: block;"><a href="#" class="selected"><span>1</span></a><a href="#"><span>2</span></a></div>
             <div class="caroufredsel_wrapper caroufredsel_wrapper_testimonials" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 400px; height: 368px; margin: 0px; overflow: hidden;"><ul class="testimonials-list autoplay-0 pause_on_hover-1" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 2000px; height: 368px;">
@@ -232,6 +191,6 @@ layout: default
             </ul></div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
