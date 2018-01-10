@@ -16,8 +16,12 @@ layout: default
 	</div>
 	<div class="clearfix">
 		<div class="row padding-top-70">
-			<ul class="services-list services-icons services-items-border row clearfix">
+    <ul class="services-list services-icons services-items-border row clearfix">
         {% for servei in site.serveis %}
+          {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+          {% if thecycle == 'odd' %}
+            </ul><ul class="services-list services-icons services-items-border row clearfix">
+          {% endif %}
           <li>
             <a href="{{servei.url}}" title="{{servei.name}}">
               <span class="service-icon {{servei.icon}}"></span>
