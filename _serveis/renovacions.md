@@ -15,3 +15,5 @@ Oferim un servei global i a mida de les necessitats de cada projecte, realitzant
 date: 2017-02-24 13:13:00 +01:00
 layout: default
 ---
+
+{% include service_detail.html %}

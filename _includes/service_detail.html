@@ -1,0 +1,137 @@
+<div class="theme-page">
+    <div class="row gray full-width page-header vertical-align-table">
+      <div class="row full-width padding-top-bottom-50 vertical-align-cell">
+        <div class="row">
+          <div class="page-header-left">
+            <h1>{{page.title}}</h1>
+          </div>
+          <div class="page-header-right">
+            <div class="bread-crumb-container">
+              <label>You Are Here:</label>
+              <ul class="bread-crumb">
+                <li>
+                  <a title="{{page.title}}" href="{{page.url}}">
+                    ELS NOSTRES SERVEIS
+                  </a>
+                </li>
+                <li class="separator">
+                  /
+                </li>
+                <li>
+                    {{page.title}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="row margin-top-70">
+        <div class="column column-1-4">
+          <ul class="vertical-menu">
+            {% for servei in site.serveis %}
+              {% if servei.url == page.url %}
+                <li class="selected">
+                  <a href="{{servei.url}}" title="{{servei.name}}">
+                    {{servei.name}}
+                    <span class="template-arrow-menu"></span>
+                  </a>
+                </li>
+              {% else %}
+                <li>
+                  <a href="{{servei.url}}" title="{{servei.name}}">
+                    {{servei.name}}
+                    <span class="template-arrow-menu"></span>
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+
+          <h6 class="box-header page-margin-top">Fulletons</h6>
+          <ul class="buttons margin-top-30">
+            <li class="template-arrow-circle-down">
+              <a href="#" title="Download Brochure">Descarregar Fulletó</a>
+            </li>
+            <li class="template-arrow-circle-down">
+              <a href="#" title="Download Summary">Descarregar resum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column column-3-4">
+          <div class="row">
+            <div class="column column-1-2">
+              <a href="/assets/images/samples/750x500/image_01.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+                <img src="/assets/images/samples/480x320/image_01.jpg" alt="img" style="display: block;">
+              </a>
+            </div>
+            <div class="column column-1-2">
+              <a href="/assets/images/samples/750x500/image_07.jpg" class="prettyPhoto re-preload" title="Interior Renovation">
+                <img src="/assets/images/samples/480x320/image_07.jpg" alt="img" style="display: block;">
+              </a>
+            </div>
+          </div>
+          <div class="row page-margin-top">
+            <div class="column-1-1">
+              <h3 class="box-header">DESCRIPCIÓ DEL SERVEI</h3>
+              <p class="description t1">{{page.description}}</p>
+            </div>
+          </div>
+          <div class="row page-margin-top padding-bottom-70">
+            <div class="column column-1-2">
+              <h4 class="box-header">WHY CHOOSE US</h4>
+              <p class="description t1 margin-top-34">With over 15 years experience and a real focus on customer satisfaction, you can rely on us for your next project.
+              We provide a professional renovation and installation services with a real focus on customer satisfaction.</p>
+              <ul class="list margin-top-20">
+                <li class="template-bullet">Financial Responsibility to Our Clients</li>
+                <li class="template-bullet">Superior Quality and Craftsmanship</li>
+                <li class="template-bullet">Quality and Value to the <a href="index.html%3Fpage=projects.html">Projects We Deliver</a></li>
+                <li class="template-bullet">Highest Standards in <a href="index.html%3Fpage=cost_calculator.html">Cost Control</a></li>
+                <li class="template-bullet">On Time and on Budget</li>
+                <li class="template-bullet">Real Focus on Customer Satisfaction</li>
+              </ul>
+            </div>
+            <div class="column column-1-2">
+              <h4 class="box-header">POPULAR QUESTIONS</h4>
+              <ul class="accordion margin-top-40 clearfix ui-accordion ui-widget ui-helper-reset" role="tablist">
+                <li>
+                  <div id="accordion-renovation-cost" class="ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" aria-controls="ui-id-1" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon template-arrow-circle-down"></span>
+                    <h5>Why does a renovation project cost so much?</h5>
+                  </div>
+                  <p class="description t1 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-1" aria-labelledby="accordion-renovation-cost" role="tabpanel" aria-hidden="false" style="display: block;">Morbi nulla tortor, degnissim at node cursus euismod est arcu.
+                  Nomad turbina uter vehicula justo magna paetos in accumsan
+                  tempus, terminal ullamcorper a quam suscipit.</p>
+                </li>
+                <li>
+                  <div id="accordion-project-timeline" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-id-2" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon template-arrow-circle-right"></span>
+                    <h5>What is the timeline for the project?</h5>
+                  </div>
+                  <p class="description t1 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-2" aria-labelledby="accordion-project-timeline" role="tabpanel" aria-hidden="true" style="display: none;">Morbi nulla tortor, degnissim at node cursus euismod est arcu.
+                  Nomad turbina uter vehicula justo magna paetos in accumsan
+                  tempus, terminal ullamcorper a quam suscipit.</p>
+                </li>
+                <li>
+                  <div id="accordion-construction-budget" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-id-3" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon template-arrow-circle-right"></span>
+                    <h5>What is the total budget for construction?</h5>
+                  </div>
+                  <p class="description t1 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-3" aria-labelledby="accordion-construction-budget" role="tabpanel" aria-hidden="true" style="display: none;">Morbi nulla tortor, degnissim at node cursus euismod est arcu.
+                  Nomad turbina uter vehicula justo magna paetos in accumsan
+                  tempus, terminal ullamcorper a quam suscipit.</p>
+                </li>
+                <li>
+                  <div id="accordion-project-initiation" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon template-arrow-circle-right"></span>
+                    <h5>How is renovation project initiated?</h5>
+                  </div>
+                  <p class="description t1 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="ui-id-4" aria-labelledby="accordion-project-initiation" role="tabpanel" aria-hidden="true" style="display: none;">Morbi nulla tortor, degnissim at node cursus euismod est arcu.
+                  Nomad turbina uter vehicula justo magna paetos in accumsan
+                  tempus, terminal ullamcorper a quam suscipit.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

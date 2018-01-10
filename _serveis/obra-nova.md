@@ -13,3 +13,5 @@ I altres zones de la geogràfica catalana: Barcelona, l'Hospitalet, Santpedor, E
 date: 2017-02-24 13:13:00 +01:00
 layout: default
 ---
+
+{% include service_detail.html %}
