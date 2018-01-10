@@ -6,3 +6,6 @@ collections:
   projectes:
     output: true
     permalink: /:collection/:name
+  serveis:
+    output: true
+    permalink: /:collection/:name

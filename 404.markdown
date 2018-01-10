@@ -1,8 +1,8 @@
---
+---
 title: Pàgina no trobada
 layout: default
 permalink: /404.html
---
+---
 <div class="theme-page padding-bottom-66">
 	<div class="row gray full-width page-header vertical-align-table">
 		<div class="row full-width padding-top-bottom-50 vertical-align-cell">
