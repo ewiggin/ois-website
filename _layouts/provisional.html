@@ -9,33 +9,88 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/style.css" />
   <link rel="shortcut icon" href="/favicon.ico">
-  <style>
-  body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  font-family: "Raleway";
-  background: url(/uploads/image2.jpg);
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-}
-  .logo {
-    text-transform: uppercase;
-    color: #F4BC16;
-  }
-</style>
+  <link rel="stylesheet" type="text/css" href="/assets/style/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/superfish.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/jquery.qtip.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/animations.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/responsive.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/odometer-theme-default.css">
+  <!--fonts-->
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/streamline-small/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/streamline-large/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/template/styles.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/social/styles.css">
+
 </head>
 
 <body>
-  <!-- logo -->
-  <h2 class="logo">
-    Obres i serveis
-    <span>Carmelo</span>
-  </h2>
+  <div class="site-container">
+    {% include topbar.html %}
 
-  <article>
-    {{content}}
-  </article>
+    <div class="header-container">
+      <div class="vertical-align-table column-1-1">
+        <div class="header clearfix">
+          <div class="logo vertical-align-cell">
+            <h1>
+              <a href="/" class="logo" title="Renovate">Obres i serveis <span>Carmelo</span></a>
+            </h1>
+          </div>
+          <div class="menu-container clearfix vertical-align-cell">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row margin-top-70">
+      <div class="column column-1-2 align-center re-preload">
+        <div class="image-wrapper">
+          <img src="/assets/images/samples/480x480/image_10.jpg" alt="" class="radius" style="display: block;">
+        </div>
+      </div>
+      <div class="column column-1-2">
+        <h2 class="box-header align-left">ENS ESTEM RENOVANT</h2>
+        <p class="description t1">Founded by Kevin Smith back in 2000, Renovate has established itself as one of the greatest and prestigious providers of construction focused interior renovation services and building. We provide a professional renovation and installation services with a real focus on customer satisfaction. Our construction Services is a multi-task company specializing in the following core areas:</p>
+        <ul class="list margin-top-20">
+          <li class="template-bullet">We combine Quality Workmanship, Superior Knowledge and Low Prices</li>
+          <li class="template-bullet">We Can Ensure a Job is Done on Time and on Budget</li>
+          <li class="template-bullet">Proven Results for Setting Exceptional Standards in <a href="index.html%3Fpage=cost_calculator.html">Cost Control</a></li>
+          <li class="template-bullet">Proffesional Service for Private and <a href="index.html%3Fpage=about.html#">Commercial Customers</a></li>
+          <li class="template-bullet">15 Years Experience and a Real Focus on Customer Satisfaction</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
+  <div class="background-overlay"></div>
+  <!--js-->
+  <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.ba-bbq.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery-ui-1.11.4.custom.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.ui.touch-punch.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.easing.1.3.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.touchSwipe.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.transit.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.hint.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.costCalculator.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.parallax.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.qtip.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.blockUI.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyA2LLXoPbK_YPWDdpwgHaG3-PFYl6KiWhI"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/odometer.min.js"></script>
 </body>
 
 </html>
