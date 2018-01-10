@@ -27,7 +27,7 @@ layout: default
         {% endfor %}
 			</ul>
 			<ul class="projects-list isotope" style="position: relative; height: 630px;">
-        {% for item in site.projects %}
+        {% for item in site.projectes %}
           <li class="pavers" style="position: absolute; left: 300px; top: 0px;">
             <a href="{{item.url}}" title="{{ item.title }}">
               <img src="{{item.cover}}" alt="">
