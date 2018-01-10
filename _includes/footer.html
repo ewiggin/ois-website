@@ -19,33 +19,31 @@
         </ul>
       </div>
       <div class="column column-1-4">
-        <h6 class="box-header">Our Services</h6>
+        <h6 class="box-header">Els nostres serveis</h6>
         <ul class="list margin-top-20">
-          <li class="template-bullet">Interior Renovation</li>
-          <li class="template-bullet">Design and Build</li>
-          <li class="template-bullet">Tiling and Painting</li>
-          <li class="template-bullet">Paver Walkways</li>
-          <li class="template-bullet">Household Repairs</li>
-          <li class="template-bullet">Solar Systems</li>
+            {% for servei in site.serveis %}
+            <li class="template-bullet">
+              <a href="{{servei.url}}" title="{{servei.name}}">
+                {{servei.name}}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="column column-1-4">
         <h6 class="box-header">Categories</h6>
         <ul class="taxonomies margin-top-30">
-          <li><a href="index.html%3Fpage=category&amp;cat=build.html" title="BUILD">BUILD</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=design.html" title="DESIGN">DESIGN</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=flooring.html" title="FLOORING">FLOORING</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=painting.html" title="PAINTING">PAINTING</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=pavers.html" title="PAVERS">PAVERS</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=plumbing.html" title="PLUMBING">PLUMBING</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=renovation.html" title="RENOVATION">RENOVATION</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=repairs.html" title="REPAIRS">REPAIRS</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=solar%2520systems.html" title="SOLAR SYSTEMS">SOLAR SYSTEMS</a></li>
-          <li><a href="index.html%3Fpage=category&amp;cat=tiling.html" title="TILING">TILING</a></li>
+          {% for category in site.data.categories %}
+            <li>
+              <a title="{{ category.name }}" href="/projectes#filter-{{category.permalink}}">
+                {{ category.name }}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="column column-1-4">
-        <h6 class="box-header">Latest Posts</h6>
+        <!--<h6 class="box-header">Latest Posts</h6>
         <ul class="blog small margin-top-30">
           <li>
             <a href="index.html%3Fpage=post.html" title="What a Difference a Few Months Make" class="post-image">
@@ -69,7 +67,7 @@
               </ul>
             </div>
           </li>
-        </ul>
+        </ul>-->
       </div>
     </div>
   </div>
