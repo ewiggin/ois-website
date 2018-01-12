@@ -7,11 +7,11 @@ layout: default
   <div class="row">
     <h2 class="box-header">ELS NOTRES CLIENTS</h2>
     <div class="our-clients-list-container page-margin-top">
-      <div class="caroufredsel_wrapper" style="display: block; text-align: center; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: 0; width: 1200px; height: 120px; margin: 0px; overflow: hidden;">
-        <ul class="our-clients-list re-preloader_0" style="display: block; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 6000px; height: 120px;">
-        {% for item in site.clients %}
+      <div class="caroufredsel_wrapper">
+        <ul class="our-clients-list">
+        {% for client in site.clients %}
           <li>
-            <img src="{{item.image}}" alt="{{item.title}}">
+            <img src="{{client.image}}" alt="{{client.title}}">
           </li>
         {% endfor %}
         </ul>
