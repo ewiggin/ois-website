@@ -40,8 +40,8 @@ layout: default
     <form class="contact-form pageclip-form" id="contact-form" method="post" action="https://send.pageclip.co/LegcXgflrrfaA29lc2turjuEbPpxLS7u/contact-form">
       <div class="row">
         <fieldset class="column column-1-2">
-          <input class="text-input hint" name="name" type="text" value="" placeholder="El teu nom *">
-          <input class="text-input hint" name="email" type="text" value="" placeholder="El teu email *">
+          <input class="text-input hint" name="name" required type="text" value="" placeholder="El teu nom *">
+          <input class="text-input hint" name="email" required type="text" value="" placeholder="El teu email *">
           <input class="text-input hint" name="phone" type="text" value="" placeholder="El teu telèfon">
         </fieldset>
         <fieldset class="column column-1-2">
