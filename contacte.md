@@ -60,6 +60,3 @@ layout: default
     </form>
   </div>
 </div>
-
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
