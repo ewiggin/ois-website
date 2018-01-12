@@ -4,6 +4,9 @@
   {% assign projectes_selected = 'selected' %}
 {% elsif page.url contains 'equip' %}
   {% assign equip_selected = 'selected' %}
+{% elsif page.url contains 'clients' %}
+  {% assign clients_selected = 'selected' %}
+{% endif %}
 {% elsif page.url contains 'contacte' %}
   {% assign contacte_selected = 'selected' %}
 {% endif %}
@@ -43,6 +46,11 @@
 <li class="{{equip_selected}}">
   <a href="/equip" title="EQUIP">
     EQUIP
+  </a>
+</li>
+<li class="{{clients_selected}}">
+  <a href="/clients" title="CLIENTS">
+    CLIENTS
   </a>
 </li>
 <li class="left-flyout {{contacte_selected}}">
