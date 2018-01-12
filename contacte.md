@@ -34,27 +34,32 @@ layout: default
 		</div>
 		<div class="row page-margin-top"></div>
 	</div>
-</div>
-<div class="row page-margin-top">
-  <form class="contact-form pageclip-form" id="contact-form" method="post" action="https://send.pageclip.co/LegcXgflrrfaA29lc2turjuEbPpxLS7u/contact-form">
-    <div class="row">
-      <fieldset class="column column-1-2">
-        <input class="text-input hint" name="name" type="text" value="" placeholder="El teu nom *">
-        <input class="text-input hint" name="email" type="text" value="" placeholder="El teu email *">
-        <input class="text-input hint" name="phone" type="text" value="" placeholder="El teu telèfon">
-      </fieldset>
-      <fieldset class="column column-1-2">
-        <textarea name="message" placeholder="Missatge" class="hint">Missatge</textarea>
-      </fieldset>
-    </div>
-    <div class="row margin-top-30">
-      <div class="column column-1-2">
-        <p class="description t1">Ens posarem en contacte el mes aviat possible.</p>
+
+  <!-- contact form -->
+  <div class="row page-margin-top">
+    <form class="contact-form pageclip-form" id="contact-form" method="post" action="https://send.pageclip.co/LegcXgflrrfaA29lc2turjuEbPpxLS7u/contact-form">
+      <div class="row">
+        <fieldset class="column column-1-2">
+          <input class="text-input hint" name="name" type="text" value="" placeholder="El teu nom *">
+          <input class="text-input hint" name="email" type="text" value="" placeholder="El teu email *">
+          <input class="text-input hint" name="phone" type="text" value="" placeholder="El teu telèfon">
+        </fieldset>
+        <fieldset class="column column-1-2">
+          <textarea name="message" placeholder="Missatge" class="hint">Missatge</textarea>
+        </fieldset>
       </div>
-      <div class="column column-1-2 align-right">
-        <input type="hidden" name="action" value="contact_form">
-        <input type="submit" name="submit" value="ENVIAR MISSATGE" class="more active pageclip-form__submit">
+      <div class="row margin-top-30">
+        <div class="column column-1-2">
+          <p class="description t1">Ens posarem en contacte el mes aviat possible.</p>
+        </div>
+        <div class="column column-1-2 align-right">
+          <input type="hidden" name="action" value="contact_form">
+          <input type="submit" name="submit" value="ENVIAR MISSATGE" class="more active pageclip-form__submit">
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
