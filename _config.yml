@@ -11,6 +11,8 @@ prose:
     - index.md
     - clients.md
     - 404.markdown
+    - .gitignore
+    - favicon.ico
     - contacte.md
     - equip.markdown
     - home.markdown
@@ -70,6 +72,15 @@ prose:
           element: "text"
           label: "Coste aprox."
           value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "text"
+          label: "Autor"
+          value: CURRENT_USER
     _serveis:
       - name: "layout"
         field:
@@ -87,8 +98,7 @@ prose:
           value: ""
       - name: "date"
         field:
-          element: "text"
-          label: "Creado el"
+          element: "hidden"
           value: CURRENT_DATETIME
       - name: "image"
         field:
@@ -102,8 +112,7 @@ prose:
           value: ""
       - name: "author"
         field:
-          element: "text"
-          label: "Autor"
+          element: "hidden"
           value: CURRENT_USER
       - name: "icon"
         field:
