@@ -54,7 +54,9 @@ layout: default
 				<div class="re-smart-column-wrapper" style="position: static; bottom: auto; top: auto; width: auto;">
 					<h6 class="box-header page-margin-top">Ùltimes entrades</h6>
 					<ul class="blog small margin-top-30 clearfix">
-						{% include last_posts.html %}
+            {% for post in site.posts offset: 0 limit: 3  %}
+              {% include last_posts.html %}
+            {% endfor %}
 					</ul>
 					<h6 class="box-header page-margin-top">Categories</h6>
 					<ul class="taxonomies margin-top-30 clearfix">
