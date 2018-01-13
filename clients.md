@@ -20,3 +20,9 @@ layout: default
     </div>
   </div>
 </div>
+
+{% for client in site.clients %}
+  <li>
+    <img src="{{client.image}}" alt="{{client.title}}"> {{client.title}}
+  </li>
+{% endfor %}
