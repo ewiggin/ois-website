@@ -15,7 +15,6 @@ prose:
     - .gitignore
     - favicon.ico
     - contacte.md
-    - equip.markdown
     - home.markdown
     - projectes.markdown
     - CNAME
