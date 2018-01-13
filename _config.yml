@@ -7,6 +7,7 @@ plugins:
   - jekyll-sitemap
 prose:
   siteurl: https://obresiserveiscarmelo.com
+  media: uploads
   ignore:
     - index.md
     - clients.md
