@@ -5,6 +5,16 @@ url: https://obresiserveiscarmelo.com
 permalink: pretty
 plugins:
   - jekyll-sitemap
+collections:
+  projectes:
+    output: true
+    permalink: /:collection/:name
+  serveis:
+    output: true
+    permalink: /:collection/:name
+  clients:
+    output: true
+    permalink: /:collection/:name
 prose:
   siteurl: https://obresiserveiscarmelo.com
   media: uploads
@@ -185,14 +195,3 @@ prose:
               value: "sl-small-bricks"
             - name: "House"
               value: 'sl-small-house-2'
-
-collections:
-  projectes:
-    output: true
-    permalink: /:collection/:name
-  serveis:
-    output: true
-    permalink: /:collection/:name
-  clients:
-    output: true
-    permalink: /:collection/:name
