@@ -1,19 +1,18 @@
 ---
 name: Renovacions
 claim: Ens il · lusiona poder veure com llueixen els nostres projectes al llarg d'aquests anys.
-image: 
 icon: sl-small-bricks
-description: "El nostre objectiu és assegurar que el resultat final ens ompli de satisfacció, a nosaltres i per descomptat al client final.
+image: /assets/images/samples/750x500/image_01.jpg
+image2: /assets/images/samples/750x500/image_07.jpg
+date: 2018-01-13 19:07:00 +01:00
+layout: services
+---
+
+El nostre objectiu és assegurar que el resultat final ens ompli de satisfacció, a nosaltres i per descomptat al client final.
 
 Aportem a les reformes certs valors, i el nostre mètode de treball, amb l'objectiu de: entendre les necessitats del client i del seu projecte, assegurar la transparència en el pressupost, flexibilitat en el treball i sobretot serietat.
 Comptem amb una sòlida experiència en la realització de reformes d'interior, tant en habitatges familiars com en edificis industrials, i d'oficines.
 
 Qualitat en el servei i rigor en el procés, són els dos principis a partir dels quals desenvolupem els seus projectes.
 
-Oferim un servei global i a mida de les necessitats de cada projecte, realitzant sempre un seguiment rigorós de l'obra i mantenint el contacte directe amb el client. Comptem amb la confiança de molts clients a Terrassa, Barcelona i a la seva àrea metropolitana."
-
-date: 2017-02-24 13:13:00 +01:00
-layout: default
----
-
-{% include service_detail.html %}
+Oferim un servei global i a mida de les necessitats de cada projecte, realitzant sempre un seguiment rigorós de l'obra i mantenint el contacte directe amb el client. Comptem amb la confiança de molts clients a Terrassa, Barcelona i a la seva àrea metropolitana.
