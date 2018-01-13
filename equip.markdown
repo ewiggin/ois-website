@@ -1,6 +1,6 @@
 ---
 title: Equip
-name: CARMELO RODRIGUEZ
+team: CARMELO RODRIGUEZ
 image: /assets/images/carmelo.jpg
 date: 2018-01-01 13:13:00 +01:00
 layout: equip-detail

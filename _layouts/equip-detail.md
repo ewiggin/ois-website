@@ -9,7 +9,7 @@ layout: default
       <div class="row full-width padding-top-bottom-50 vertical-align-cell">
         <div class="row">
           <div class="page-header-left">
-            <h1>{{page.name}}</h1>
+            <h1>{{page.team}}</h1>
           </div>
           <div class="page-header-right">
             <div class="bread-crumb-container">
@@ -24,7 +24,7 @@ layout: default
                   /
                 </li>
                 <li>
-                  {{page.name}}
+                  {{page.team}}
                 </li>
               </ul>
             </div>
@@ -36,12 +36,12 @@ layout: default
       <div class="row page-margin-top-section">
         <div class="column column-1-3">
           <div class="team-box single">
-            <a href="#" title="{{page.name}}">
-              <img alt="{{page.name}}" src="{{page.image}}" style="display: block; width:100%;">
+            <a href="#" title="{{page.team}}">
+              <img alt="{{page.team}}" src="{{page.image}}" style="display: block; width:100%;">
             </a>
             <div class="team-content">
               <h4>
-                <a href="#" title="{{page.name}}">{{page.name}}</a>
+                <a href="#" title="{{page.team}}">{{page.team}}</a>
                 <span>FUNDADOR</span>
               </h4>
             </div>
@@ -57,7 +57,7 @@ layout: default
           <table class="margin-top-40 align-left">
             <tbody>
               <tr>
-                <td>Nom: {{page.name}}</td>
+                <td>Nom: {{page.team}}</td>
               </tr>
               <tr>
                 <td>Adreça: Carrer Font del Capellà 24 1º 08232 Viladecavalls, Barcelona</td>
