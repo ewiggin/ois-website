@@ -15,3 +15,5 @@ cover: /uploads/IMG_0581.JPG
 ## Casa de saitama
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+![image2.jpg]({{site.baseurl}}/uploads/image2.jpg)
