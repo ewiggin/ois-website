@@ -21,8 +21,8 @@ layout: default
   </div>
 </div> -->
 HOLA..
-{% for client in site.clients %}
+{% for item in site.clients %}
   <li>
-    <img src="{{client.image}}" alt="{{client.title}}"> {{client.title}}
+    <img src="{{item.image}}" alt="{{item.title}}"> {{item.title}}
   </li>
 {% endfor %}
