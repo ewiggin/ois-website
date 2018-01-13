@@ -3,7 +3,7 @@
       <div class="column column-1-4">
         <h6 class="box-header">Obres i serveis Carmelo</h6>
         <p class="description t1">
-            Fundada per Carmelo Rodríguez, ens hem consolidat com un dels majors i prestigiosos proveïdors de serveis de construcció i renovació d'interiorisme centrats en la construcció.
+          Empresa amb mentalitat de futur i en constant evolució, utilitzem mitjans tècnics d’última generació, garantint així la màxima qualitat en els nostres treballs. Busquem la major implicació i rapidesa en tots els projectes en què intervenim, oferint el millor rendiment i resultat, i així garantim l’opció més òptima per als nostres clients.
         </p>
         <ul class="social-icons yellow margin-top-26">
           <li>
@@ -43,30 +43,11 @@
       </div>
       <div class="column column-1-4">
         <h6 class="box-header">Actualitat</h6>
-        <!--<ul class="blog small margin-top-30">
-          <li>
-            <a href="index.html%3Fpage=post.html" title="What a Difference a Few Months Make" class="post-image">
-              <img src="/assets/images/samples/90x90/image_10.jpg" alt="">
-            </a>
-            <div class="post-content">
-              <a href="index.html%3Fpage=post.html" title="What a Difference a Few Months Make">What a Difference a Few Months Make</a>
-              <ul class="post-details">
-                <li class="date">April 25, 2015</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="index.html%3Fpage=post.html" title="Kitchen and Living Room Renovation" class="post-image">
-              <img src="/assets/images/samples/90x90/image_07.jpg" alt="">
-            </a>
-            <div class="post-content">
-              <a href="index.html%3Fpage=post.html" title="Kitchen and Living Room Renovation">Kitchen and Living Room Renovation</a>
-              <ul class="post-details">
-                <li class="date">April 17, 2015</li>
-              </ul>
-            </div>
-          </li>
-        </ul>-->
+        <ul class="blog small margin-top-30">
+          {% for post in site.posts offset: 0 limit: 3  %}
+            {% include last_posts.html %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
