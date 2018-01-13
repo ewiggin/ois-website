@@ -10,7 +10,7 @@ layout: default
     <div class="our-clients-list-container page-margin-top">
       <div class="caroufredsel_wrapper">
         <ul class="our-clients-list">
-        {% for item in site.clientes %}
+        {% for item in site.clients %}
           <li>
             <img src="{{item.image}}" alt="{{item.title}}"> {{item.title}}
           </li>

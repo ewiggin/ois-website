@@ -193,3 +193,6 @@ collections:
   serveis:
     output: true
     permalink: /:collection/:name
+  clients:
+    output: true
+    permalink: /:collection/:name
