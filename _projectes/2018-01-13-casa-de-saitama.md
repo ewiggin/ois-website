@@ -2,7 +2,7 @@
 date: '2018-01-13 19:56 +0100'
 layout: project-detail
 author: ewiggin
-published: false
+published: true
 title: Casa de Saitama
 category: renovation
 type: Obra nueva
