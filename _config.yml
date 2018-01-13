@@ -44,9 +44,8 @@ prose:
           value: ""
       - name: "cover"
         field:
-          element: "image"
+          element: "text"
           label: "Imagen principal"
-          placeholder: "default-image.jpg"
           value: ""
       - name: "type"
         field:
