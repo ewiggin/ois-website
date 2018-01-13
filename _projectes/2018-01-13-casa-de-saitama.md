@@ -11,6 +11,10 @@ finish_at: Septiembre 2017
 size: 500m2
 price: '70,000 €'
 cover: /uploads/IMG_0581.JPG
+image1: /uploads/IMG_0581.JPG
+image2: /uploads/image2.jpg
+image3: /uploads/image2.jpg
+image4: /uploads/image2.jpg
 ---
 ## Casa de saitama
 
