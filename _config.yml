@@ -44,8 +44,9 @@ prose:
           value: ""
       - name: "cover"
         field:
-          element: "text"
+          element: "image"
           label: "Imagen principal"
+          placeholder: "default-image.jpg"
           value: ""
       - name: "type"
         field:
@@ -78,8 +79,7 @@ prose:
           value: CURRENT_DATETIME
       - name: "author"
         field:
-          element: "text"
-          label: "Autor"
+          element: "hidden"
           value: CURRENT_USER
     _serveis:
       - name: "layout"
