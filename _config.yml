@@ -27,7 +27,7 @@ prose:
     - /assets
     - /_includes
   metadata:
-    _clients:
+    _clientes:
       - name: "title"
         field:
           element: "text"
