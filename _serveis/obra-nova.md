@@ -5,7 +5,7 @@ claim: Realitzar aquests treballs ens permet gaudir i assaborir la paleta en la 
 image: /assets/images/samples/750x500/image_01.jpg
 image2: /assets/images/samples/750x500/image_07.jpg
 date: 2018-01-13 19:07:00 +01:00
-layout: services
+layout: service-detail
 ---
 
 La nostra estructura ens apropa al client i la nostra experiència ens permet integrar la construcció tradicional amb la introducció de nous, i moderns projectes.

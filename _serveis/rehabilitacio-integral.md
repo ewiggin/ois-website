@@ -5,7 +5,7 @@ image: /assets/images/samples/750x500/image_01.jpg
 image2: /assets/images/samples/750x500/image_07.jpg
 icon: sl-small-bricks
 date: 2017-02-24 13:13:00 +01:00
-layout: service
+layout: service-detail
 ---
 Realitzem tot tipus de rehabilitacions de façanes i estructures en edificis, locals o habitatges.
 Especialistes en reformes en comunitats de veïns, realitzem el projecte de arquitectura, l'estudi de seguretat i l'execució de l'obra. Més de 10 anys d'experiència en el sector ens avalen.

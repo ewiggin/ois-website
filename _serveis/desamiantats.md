@@ -5,7 +5,7 @@ icon: sl-small-bricks
 image: /assets/images/samples/750x500/image_01.jpg
 image2: /assets/images/samples/750x500/image_07.jpg
 date: 2018-01-13 19:07:00 +01:00
-layout: services
+layout: service-detail
 ---
 
 La nostra empresa està autoritzada per a la manipulació i retirada de residus tòxics amb contingut d'amiant.
