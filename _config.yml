@@ -28,6 +28,48 @@ prose:
     - /assets
     - /_includes
   metadata:
+    _clients:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Nombre"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Logotipo"
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post-detail"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Imagen de portada"
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
     _projectes:
       - name: "layout"
         field:
@@ -46,7 +88,27 @@ prose:
       - name: "cover"
         field:
           element: "text"
+          label: "Portada"
+          value: ""
+      - name: "image1"
+        field:
+          element: "text"
           label: "Imagen principal"
+          value: ""
+      - name: "image2"
+        field:
+          element: "text"
+          label: "Imagen 2"
+          value: ""
+      - name: "image3"
+        field:
+          element: "text"
+          label: "Imagen 3"
+          value: ""
+      - name: "image4"
+        field:
+          element: "text"
+          label: "Imagen 4"
           value: ""
       - name: "type"
         field:
