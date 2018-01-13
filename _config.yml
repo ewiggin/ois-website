@@ -48,6 +48,10 @@ prose:
           element: "text"
           label: "Logotipo"
           value: ""
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
       - name: "date"
         field:
           element: "hidden"

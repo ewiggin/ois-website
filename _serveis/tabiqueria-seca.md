@@ -7,6 +7,7 @@ image2: /assets/images/samples/750x500/image_07.jpg
 date: 2018-01-13 19:07:00 +01:00
 layout: service-detail
 ---
+**Protegint la seva integritat i la de les seves propietats.**
 
 Està considerat en els països desenvolupats com un material de decoració i de construcció tradicional.
 
