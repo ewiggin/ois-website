@@ -5,6 +5,117 @@ url: https://obresiserveiscarmelo.com
 permalink: pretty
 plugins:
   - jekyll-sitemap
+prose:
+  siteurl: https://obresiserveiscarmelo.com
+  ignore:
+    - index.md
+    - clients.md
+    - 404.markdown
+    - contacte.md
+    - equip.markdown
+    - home.markdown
+    - projectes.markdown
+    - CNAME
+    - serveis.md
+    - style.css
+    - _config.yml
+    - /_layouts
+    - /_plugins
+    - /_includes
+    - /assets
+    - /_includes
+  metadata:
+    _projectes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "project-detail"
+      - name: "category"
+        field:
+          element: "text"
+          label: "Categoría"
+          value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "cover"
+        field:
+          element: "text"
+          label: "Imagen principal"
+          value: ""
+      - name: "type"
+        field:
+          element: "text"
+          label: "Tipo de proyecto"
+          value: ""
+      - name: "client"
+        field:
+          element: "text"
+          label: "Nombre cliente"
+          value: ""
+      - name: "finish_at"
+        field:
+          element: "text"
+          label: "Proyecto acabado el"
+          value: ""
+      - name: "size"
+        field:
+          element: "text"
+          label: "Envergadura"
+          value: ""
+      - name: "price"
+        field:
+          element: "text"
+          label: "Coste aprox."
+          value: ""
+    _serveis:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "servei-detail"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Nombre"
+          value: ""
+      - name: "claim"
+        field:
+          element: "text"
+          label: "Eslogan"
+          value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Creado el"
+          value: CURRENT_DATETIME
+      - name: "image"
+        field:
+          element: "text"
+          label: "Imagen principal"
+          value: ""
+      - name: "image2"
+        field:
+          element: "text"
+          label: "Imagen secundaria"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Autor"
+          value: CURRENT_USER
+      - name: "icon"
+        field:
+          element: "select"
+          label: "Icono"
+          value: "sl-small-bricks"
+          options:
+            - name: "Bricks"
+              value: "sl-small-bricks"
+            - name: "House"
+              value: 'sl-small-house-2'
+
 collections:
   projectes:
     output: true
