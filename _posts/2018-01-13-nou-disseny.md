@@ -2,7 +2,7 @@
 author: ewiggin
 date: '2018-01-13 21:19 +0100'
 layout: post-detail
-published: false
+published: true
 title: Nou disseny!
 image: /uploads/image.jpg
 ---
