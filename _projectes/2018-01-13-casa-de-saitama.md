@@ -1,7 +1,7 @@
 ---
+author: ewiggin
 date: '2018-01-13 19:56 +0100'
 layout: project-detail
-author: ewiggin
 published: true
 title: Casa de Saitama
 category: renovation
@@ -10,7 +10,7 @@ client: Saitama
 finish_at: Septiembre 2017
 size: 500m2
 price: '70,000 €'
-cover: '{{site.url}}/_projectes/IMG_0581.JPG'
+cover: /uploads/IMG_0581.JPG
 ---
 ## Casa de saitama
 
