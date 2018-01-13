@@ -18,6 +18,6 @@ image4: /uploads/image2.jpg
 ---
 ## Casa de saitama
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Metadata configuration refers to the yaml frontmatter present in Jekyll sites. Prose allows you to turn these key value pairings into friendly form elements or hide them completely if fields should only accept a default value. 
 
-![image2.jpg]({{site.baseurl}}/uploads/image2.jpg)
+Overall, this provides a simpler interface where you are editing the values and not the keys themselves. If a front matter field is not defined in the configuration the output of this is defaulted to a raw output.
