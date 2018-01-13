@@ -13,7 +13,7 @@ layout: default
 			<div class="column column-1-3">
 				<ul class="features-list">
 					<li class="sl-small-location">
-						<p>Viladecavalls<br>Barcelona</p>
+						<p>Carrer Font del Capellà 24 1º 08232 Viladecavalls<br>Barcelona</p>
 					</li>
 				</ul>
 			</div>

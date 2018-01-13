@@ -60,7 +60,7 @@ layout: default
                 <td>Nom: CARMELO RODRIGUEZ</td>
               </tr>
               <tr>
-                <td>Adressa: Viladecavalls, Barcelona</td>
+                <td>Adreça: Carrer Font del Capellà 24 1º 08232 Viladecavalls, Barcelona</td>
               </tr>
               <tr>
                 <td>Email: <a href="mailto:obresiserveiscarmelo@gmail.com">obresiserveiscarmelo@gmail.com</a></td>
@@ -73,8 +73,8 @@ layout: default
         </div>
         <div class="column column-1-3">
           <h3 class="box-header">PERFIL</h3>
-          <p class="description t1 margin-top-34">Fundada per Carmelo Rodríguez, ens hem consolidat com un dels majors i prestigiosos proveïdors de serveis de construcció i renovació d'interiorisme centrats en la construcció.</p>
-          <p class="description t1">Oferim serveis de renovació i instal·lació professionals amb un enfocament real en la satisfacció del client. Les nostres instal·lacions es realitzen amb personal perfectament qualificat i amb els millors estàndards professionals. Podem ajudar-vos a portar una vida nova a les sales existents i desenvolupar espais no utilitzats, des del disseny inicial i l'especificació del projecte fins a aconseguir un final d'alta gamma.</p>
+          <p class="description t1 margin-top-34">Empresa amb mentalitat de futur i en constant evolució, utilitzem mitjans tècnics d'última generació, garantint així la màxima qualitat en els nostres treballs. Busquem la major implicació i rapidesa en tots els projectes en què intervenim, oferint el millor rendiment i resultat, i així garantim l'opció més òptima per als nostres clients.</p>
+          <p class="description t1">Som una empresa d'àmbit català dedicada íntegrament a donar solucions als clients del mercat de la construcció, amb la més avançada maquinària i recursos tant tècnics com humans altament qualificats, i que oferim les millors garanties, treballs eficients i professionals. <br />Els nostres inicis professionals es remunten a l'any 1988, durant aquest temps hem realitzat obres de diferent abast i pressupost, però sempre envoltats de grans professionals del món de la construcció, aparelladors, arquitectes, decoradors, enginyers, topògrafs, etc. el que ha enriquit els nostres coneixements d'aquest apassionant món, aconseguint amb això implicar-nos en totes i cadascuna de les nostres obres.<br /><br />Estem inscrits al Registre d´Empreses Acreditades, amb el nº d´inscripció REA: 09000053635, i té validesa a tot el territori nacional. Tenim concertat amb PREVENCONTROL, la prestació del Servei de Prevenció Aliè, en materia de Riscos Laborals, per a tots els nostres centres de treball.</p>
         </div>
       </div>
       <div class="row top-border page-margin-top-section full-width">
@@ -91,7 +91,7 @@ layout: default
             <ul class="features-list">
               <li class="sl-small-person">
                 <h4>RECURSOS</h4>
-                <p>Tenim l'experiència, el personal i els recursos per realitzar el teu projecte.</p>
+                <p>Tenim l'experiència i els recursos per realitzar el teu projecte.</p>
               </li>
             </ul>
           </div>
@@ -99,7 +99,7 @@ layout: default
             <ul class="features-list">
               <li class="sl-small-trolley">
                 <h4>SUBMINISTRAMENT</h4>
-                <p>Treballa amb nosaltres amb una sèrie de passos acuradament planificats.</p>
+                <p>Treballem amb una sèrie de passos acuradament planificats.</p>
               </li>
             </ul>
           </div>
