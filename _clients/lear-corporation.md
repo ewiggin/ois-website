@@ -1,7 +1,7 @@
 ---
 author: ewiggin
 date: '2018-01-13 21:30 +0100'
-published: false
+published: true
 title: Lear Corporation
 image: /uploads/lear_gray.png
 ---
