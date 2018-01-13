@@ -12,7 +12,7 @@ layout: default
         <ul class="our-clients-list">
         {% for item in site.clients %}
           <li>
-            <img src="{{item.image}}" alt="{{item.title}}"> {{item.title}}
+            <img src="{{item.image}}" alt="{{item.title}}">
           </li>
         {% endfor %}
         </ul>
