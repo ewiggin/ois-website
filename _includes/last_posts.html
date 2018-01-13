@@ -5,7 +5,7 @@
   <div class="post-content">
       <a href="{{post.url}}" title="{{ post.title }}">{{ post.title }}</a>
       <ul class="post-details">
-        <li class="date">{{ post.date }}</li>
+        <li class="date">{{ post.date | date: "%-d %B %Y"  }}</li>
       </ul>
     </div>
 </li>

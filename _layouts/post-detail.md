@@ -35,7 +35,7 @@ layout: default
 				<div class="blog clearfix">
 					<div class="post single">
 						<ul class="post-details">
-							<li class="date template-calendar">{{page.date}}</li>
+							<li class="date template-calendar">{{page.date | date: "%-d %B %Y" }}</li>
 						</ul>
 						<div class="post-content">
 							<a href="#" title="{{page.title}}" class="post-image">
