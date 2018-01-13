@@ -21,7 +21,7 @@ layout: default
   </div>
 </div> -->
 HOLA..
-{% for item in site.clients %}
+{% for item in site.projectes %}
   <li>
     <img src="{{item.image}}" alt="{{item.title}}"> {{item.title}}
   </li>
