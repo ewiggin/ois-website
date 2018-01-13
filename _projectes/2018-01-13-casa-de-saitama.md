@@ -10,8 +10,8 @@ client: Saitama
 finish_at: Septiembre 2017
 size: 500m2
 price: '70,000 €'
+cover: '{{site.url}}/_projectes/IMG_0581.JPG'
 ---
 ## Casa de saitama
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
