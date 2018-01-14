@@ -50,26 +50,36 @@ layout: default
         <h4 class="box-header page-margin-top">D'UNA ULLADA</h4>
         <table class="margin-top-40">
           <tbody>
+            {% if page.type %}
             <tr>
               <td>Tipus de projecte</td>
               <td>{{page.type}}</td>
             </tr>
+            {% endif %}
+            {% if page.client %}
             <tr>
               <td>Client</td>
               <td>{{page.client}}</td>
             </tr>
+            {% endif %}
+            {% if page.finish_at %}
             <tr>
               <td>Data de finalització</td>
               <td>{{page.finish_at}}</td>
             </tr>
+            {% endif %}
+            {% if page.size %}
             <tr>
               <td>Mida del projecte</td>
               <td>{{page.size}}</td>
             </tr>
+            {% endif %}
+            {% if page.price %}
             <tr>
               <td>Valor del contracte</td>
               <td>{{page.price}}</td>
             </tr>
+            {% endif %}
           </tbody>
         </table>
       </div>
