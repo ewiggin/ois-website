@@ -1,53 +1,56 @@
 <div class="row gray full-width page-padding-top padding-bottom-50">
-    <div class="row row-4-4">
-      <div class="column column-1-4">
-        <h6 class="box-header">Obres i serveis Carmelo</h6>
-        <p class="description t1">
-          Empresa amb mentalitat de futur i en constant evolució, utilitzem mitjans tècnics d’última generació, garantint així la màxima qualitat en els nostres treballs. Busquem la major implicació i rapidesa en tots els projectes en què intervenim, oferint el millor rendiment i resultat, i així garantim l’opció més òptima per als nostres clients.
-        </p>
-        <ul class="social-icons yellow margin-top-26">
-          <li>
-            <a target="_blank" href="http://facebook.com/" class="social-facebook" title="facebook"></a>
+  <div class="row row-4-4">
+    <div class="column column-1-4">
+      <h6 class="box-header">Obres i serveis Carmelo</h6>
+      <p class="description t1">
+        Empresa amb mentalitat de futur i en constant evolució, utilitzem mitjans tècnics d’última generació, garantint així la màxima qualitat en els nostres treballs. Busquem la major implicació i rapidesa en tots els projectes en què intervenim, oferint el millor rendiment i resultat, i així garantim l’opció més òptima per als nostres clients.
+      </p>
+      <ul class="social-icons yellow margin-top-26">
+        <li>
+          <a target="_blank" href="http://facebook.com/" class="social-facebook" title="facebook"></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/" class="social-twitter" title="twitter"></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://linkedin" class="social-linkedin" title="linkedin"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="column column-1-4">
+      <h6 class="box-header">Els nostres serveis</h6>
+      <ul class="list margin-top-20">
+          {% for servei in site.serveis %}
+          <li class="template-bullet">
+            <a href="{{servei.url}}" title="{{servei.name}}">
+              {{servei.name}}
+            </a>
           </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column column-1-4">
+      <h6 class="box-header">Categories</h6>
+      <ul class="taxonomies margin-top-30">
+        {% for category in site.data.categories %}
           <li>
-            <a target="_blank" href="https://twitter.com/" class="social-twitter" title="twitter"></a>
+            <a title="{{ category.name }}" href="/projectes#filter-{{category.permalink}}">
+              {{ category.name }}
+            </a>
           </li>
-          <li>
-            <a target="_blank" href="https://linkedin" class="social-linkedin" title="linkedin"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="column column-1-4">
-        <h6 class="box-header">Els nostres serveis</h6>
-        <ul class="list margin-top-20">
-            {% for servei in site.serveis %}
-            <li class="template-bullet">
-              <a href="{{servei.url}}" title="{{servei.name}}">
-                {{servei.name}}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="column column-1-4">
-        <h6 class="box-header">Categories</h6>
-        <ul class="taxonomies margin-top-30">
-          {% for category in site.data.categories %}
-            <li>
-              <a title="{{ category.name }}" href="/projectes#filter-{{category.permalink}}">
-                {{ category.name }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="column column-1-4">
-        <h6 class="box-header">Actualitat</h6>
-        <ul class="blog small margin-top-30">
-          {% for post in site.posts offset: 0 limit: 2  %}
-            {% include last_posts.html %}
-          {% endfor %}
-        </ul>
-      </div>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column column-1-4">
+      <h6 class="box-header">Actualitat</h6>
+      <ul class="blog small margin-top-30">
+        {% for post in site.posts offset: 0 limit: 2  %}
+          {% include last_posts.html %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
+</div>
+<div class="row align-center padding-top-bottom-30">
+  <span class="copyright">© Copyright 2017 <a href="https://obresiserveiscarmelo.com" target="_blank">obresiserveiscarmelo.com</a> by <a href="https://lawebeixerida.cat" title="lawebeixerida.cat" target="_blank">lawebeixerida.cat</a></span>
+</div>
