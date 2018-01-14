@@ -2,7 +2,7 @@
 author: ewiggin
 date: '2018-01-14 18:06 +0100'
 layout: project-detail
-published: false
+published: true
 title: Edifici INTERFACE Barcelona
 cover: /uploads/2014/08/20130627_131706-300x225.png
 client: Ralfas Consulting s.l.
