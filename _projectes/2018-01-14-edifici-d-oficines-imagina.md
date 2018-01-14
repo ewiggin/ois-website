@@ -2,7 +2,7 @@
 author: ewiggin
 date: '2018-01-14 17:32 +0100'
 layout: project-detail
-published: false
+published: true
 title: Edifici d'oficines IMAGINA
 category: renovation
 client: Ralfas Consulting s.l.
