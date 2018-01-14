@@ -1,5 +1,5 @@
 ---
-name: Renovacions
+name: Reformes d'interiors
 claim: Ens il · lusiona poder veure com llueixen els nostres projectes al llarg d'aquests anys.
 icon: sl-small-bricks
 image: /assets/images/samples/750x500/image_01.jpg
@@ -7,6 +7,8 @@ image2: /assets/images/samples/750x500/image_07.jpg
 date: 2018-01-13 19:07:00 +01:00
 layout: service-detail
 ---
+
+**Ens il · lusiona poder veure com llueixen els nostres projectes al llarg d'aquests anys.**
 
 El nostre objectiu és assegurar que el resultat final ens ompli de satisfacció, a nosaltres i per descomptat al client final.
 
