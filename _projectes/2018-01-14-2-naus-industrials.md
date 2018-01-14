@@ -2,7 +2,7 @@
 author: ewiggin
 date: '2018-01-14 18:11 +0100'
 layout: project-detail
-published: false
+published: true
 title: 2 naus industrials
 category: obra-nova
 cover: /uploads/2014/08/Parets-Moviment-de-terres-300x225.jpg
