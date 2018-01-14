@@ -6,7 +6,6 @@ date: {}
 layout: equip-detail
 published: true
 ---
-
 Empresa amb mentalitat de futur i en constant evolució, utilitzem mitjans tècnics d'última generació, garantint així la màxima qualitat en els nostres treballs. Busquem la major implicació i rapidesa en tots els projectes en què intervenim, oferint el millor rendiment i resultat, i així garantim l'opció més òptima per als nostres clients.
 
 Som una empresa d'àmbit català dedicada íntegrament a donar solucions als clients del mercat de la construcció, amb la més avançada maquinària i recursos tant tècnics com humans altament qualificats, i que oferim les millors garanties, treballs eficients i professionals.
