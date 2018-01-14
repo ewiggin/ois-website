@@ -15,6 +15,6 @@ finish_at: Març 2014
 ---
 ### Edifici d'oficines IMAGINA a Esplugues de Llobregat.
 
-> Falta explicació molt més detallada.
-
 Formació d'un bloc sanitari que inclou 3 WC i lavabos.
+
+> Falta explicació molt més detallada.
