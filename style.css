@@ -37,3 +37,7 @@ address {
 address a {
   color: #F4BC16;
 }
+
+img {
+  max-width: 100%;
+}
