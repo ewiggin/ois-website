@@ -1,12 +1,6 @@
 - name: Reformes d'interiors
   permalink: renovation
 
-- name: Disseny i construcció
-  permalink: design-and-build
-
-- name: Paviments
-  permalink: pavers
-
 - name: Impermeabilitzacions
   permalink: impermeabilitzacions
 
