@@ -108,7 +108,7 @@ layout: default
     </div>
   </div>
 </div>
-<div class="row page-margin-top-section">
+<!-- <div class="row page-margin-top-section">
   <div class="column column-1-2">
     <h3 class="box-header">TESTIMONIS</h3>
     <div class="row testimonials-container type-small margin-top-40">
@@ -137,4 +137,4 @@ layout: default
         </li></ul></div>
     </div>
   </div>	
-</div>
+</div> -->

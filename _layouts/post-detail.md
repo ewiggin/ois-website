@@ -41,9 +41,9 @@ layout: default
 							<a href="#" title="{{page.title}}" class="post-image">
 								<img src="{{page.image}}" alt="" style="display: block;">
 							</a>
-							<ul class="post-content-details clearfix">
-								<li>Redacció: <a href="index.html%3Fpage=post.html#" title="Kevin Smith">{{page.author}}</a></li>
-							</ul>
+							<!-- <ul class="post-content-details clearfix">
+								<li>Redacció: <a href="#" title="{{page.author}}">{{page.author}}</a></li>
+							</ul> -->
 							<h2 class="box-header align-left"><a href="#">{{page.title}}</a></h2>
 							{{content}}
 						</div>

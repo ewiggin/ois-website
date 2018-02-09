@@ -76,7 +76,7 @@ layout: default
         {% endif %}
         <div class="row page-margin-top padding-bottom-70">
           {% include why_us.html %}
-          {% include faq.html %}
+          <!-- add faq here -->
         </div>
       </div>
     </div>
