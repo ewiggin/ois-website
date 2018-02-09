@@ -7,6 +7,6 @@ layout: provisional
   <hr />
   <address>
     +34 607 240 726<br />
-    <a href="mailto: obresiserveiscarmelo@gmail.com">obresiserveiscarmelo@gmail.com</a>
+    <a href="mailto: info@obresiserveiscarmelo.com">info@obresiserveiscarmelo.com</a>
   </address>
 </div>

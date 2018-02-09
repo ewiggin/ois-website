@@ -17,19 +17,19 @@ layout: default
       <div class="column column-1-2">
         {% if page.image1 %}
           <a href="{{page.image1}}" class="prettyPhoto re-preload" title="{{page.title}}">
-            <img src="{{page.image1}}" alt="img" style="display: block;">
+            <img src="{{page.image1}}" alt="img" style="display: block; width:100%;">
           </a>
         {% endif %}
         {% if page.image2 and page.image3 %}
           <div class="row margin-top-30">
             <div class="column column-1-2">
               <a href="{{page.image2}}" class="prettyPhoto re-preload" title="{{page.title}}">
-                <img src="{{page.image2}}" alt="img" style="display: block;">
+                <img src="{{page.image2}}" alt="img" style="display: block; width:100%;">
               </a>
             </div>
             <div class="column column-1-2">
               <a href="{{page.image3}}" class="prettyPhoto re-preload" title="{{page.title}}">
-                <img src="{{page.image3}}" alt="img" style="display: block;">
+                <img src="{{page.image3}}" alt="img" style="display: block; width:100%;">
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ layout: default
         {% if page.image4 %}
           <div class="row margin-top-30">
             <a href="{{page.image4}}" class="prettyPhoto re-preload" title="{{page.title}}">
-              <img src="{{page.image4}}" alt="img" style="display: block;">
+              <img src="{{page.image4}}" alt="img" style="display: block; width:100%;">
             </a>
           </div>
         {% endif %}

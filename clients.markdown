@@ -6,7 +6,7 @@ layout: default
 
 <div class="row gray full-width page-padding-top-section padding-bottom-66">
   <div class="row">
-    <h2 class="box-header">ELS NOTRES CLIENTS</h2>
+    <h2 class="box-header">ELS NOSTRES CLIENTS</h2>
     <div class="our-clients-list-container page-margin-top">
       <div class="caroufredsel_wrapper">
         <ul class="our-clients-list">
