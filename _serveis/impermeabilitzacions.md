@@ -1,11 +1,11 @@
 ---
+author: ewiggin
+date: 2018-01-13T18:07:00.000Z
+layout: service-detail
 name: Impermeabilitzacions
 claim: Amb mim i cura tractem qualsevol superfície que hàgim de impermeabilitzar.
 icon: sl-small-brush-2
-image: /assets/images/samples/750x500/image_01.jpg
-image2: /assets/images/samples/750x500/image_07.jpg
-date: 2018-01-13 19:07:00 +01:00
-layout: service-detail
+published: true
 ---
 **Amb mim i cura tractem qualsevol superfície que hàgim de impermeabilitzar, i és que, cuidem tots els detalls per poder oferir resultats de qualitat.**
 
