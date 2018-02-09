@@ -41,3 +41,7 @@ address a {
 img {
   max-width: 100%;
 }
+
+.gallery-item {
+  background-repeat:none; background-size: cover; width: 100%; display:block;
+}

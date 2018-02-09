@@ -37,8 +37,7 @@ layout: default
                 {% for image in site.static_files %}
                     {% if image.path contains 'gallery' %}
                         <li>
-                            <a href="{{ site.baseurl }}{{ image.path }}" class="prettyPhoto re-preload">
-                                <img src="{{ site.baseurl }}{{ image.path }}" alt="" style="display: block;">
+                            <a href="{{ site.baseurl }}{{ image.path }}" style="background-image: url('{{ site.baseurl }}{{ image.path }}');" class="prettyPhoto re-preload gallery-item">
                             </a>
                         </li>
                     {% endif %}
