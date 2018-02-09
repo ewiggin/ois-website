@@ -6,17 +6,12 @@ published: true
 title: Nou disseny!
 image: /uploads/image.jpg
 ---
-
-> Architecture in not based on concrete and steel and the elements of the soil. It’s based on wonder. **Daniel Libeskind**
-
 Estem molt contents de poder presentar el nou disseny del nostre lloc web.
 
 Com ens obliga la nostra manera de fer, intentem estar sempre actualitzats en els procediments, tècniques, materials, etc. per poder realitzar obres més exigents per clients avantguardistes. Per tant, la nostra pàgina després de 4 anys la nostra web s'ha modernitzat per poder ser accessible per qualsevol dispositiu mòbil i que qualsevol persona pugui ficar-se en contacte amb nosaltres.
 
 En aquesta nova web de forma habitual publicarem els diferents projectes que anem realitzant, amb fotos del procés i sobretot fotos de la *feina ben feta*.
 
-Hem afegit també descripcions més acurades dels nostres serveis i testimonis de clients que ens recomanen.
-
-Estem molt orgullosos de la feina que hem realitzat durant més de 30 anys.
+Hem afegit també descripcions més acurades dels nostres serveis i testimonis de clients que ens recomanen. Estem molt orgullosos de la feina que hem realitzat durant més de 30 anys.
 
 **Esperem que us agradi aquest nou disseny!**
