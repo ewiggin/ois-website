@@ -51,3 +51,7 @@ img {
   height: 250px;
   display: block;
 }
+
+.post.single p {
+  margin-top: 0 !important;
+}
