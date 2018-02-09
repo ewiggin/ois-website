@@ -43,5 +43,11 @@ img {
 }
 
 .gallery-item {
-  background-repeat:none; background-size: cover; width: 100%; display:block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0 24px;
+  height: 250px;
+  display: block;
 }

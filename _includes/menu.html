@@ -8,6 +8,8 @@
   {% assign clients_selected = 'selected' %}
 {% elsif page.url contains 'contacte' %}
   {% assign contacte_selected = 'selected' %}
+{% elsif page.url contains 'galeria' %}
+  {% assign galeria_selected = 'selected' %}
 {% endif %}
 
 <li class="{{serveis_selected}}">
@@ -45,6 +47,11 @@
 <li class="{{equip_selected}}">
   <a href="/equip" title="EQUIP">
     EQUIP
+  </a>
+</li>
+<li class="{{galeria_selected}}">
+  <a href="/galeria" title="FEINA BEN FETA">
+    FEINA BEN FETA
   </a>
 </li>
 <li class="{{clients_selected}}">
