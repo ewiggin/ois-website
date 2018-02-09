@@ -50,6 +50,7 @@ layout: default
       </div>
       <div class="row margin-top-30">
         <div class="column column-1-2">
+					<p class="description t1"><small>* Informació obligatòria.</small></p>
           <p class="description t1">Ens posarem en contacte el mes aviat possible.</p>
         </div>
         <div class="column column-1-2 align-right">
