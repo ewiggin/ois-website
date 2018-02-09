@@ -4,7 +4,7 @@ date: '2018-01-13 21:19 +0100'
 layout: post-detail
 published: true
 title: Nou disseny!
-image: /uploads/image.jpg
+image: /uploads/preview.png
 ---
 Estem molt contents de poder presentar el nou disseny del nostre lloc web.
 
@@ -15,3 +15,4 @@ En aquesta nova web de forma habitual publicarem els diferents projectes que ane
 Hem afegit també descripcions més acurades dels nostres serveis i testimonis de clients que ens recomanen. Estem molt orgullosos de la feina que hem realitzat durant més de 30 anys.
 
 **Esperem que us agradi aquest nou disseny!**
+
