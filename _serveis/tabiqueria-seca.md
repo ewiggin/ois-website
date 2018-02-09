@@ -1,11 +1,11 @@
 ---
+author: ewiggin
+date: 2018-01-13T18:07:00.000Z
+layout: service-detail
 name: Tabiqueria seca
 claim: Protegint la seva integritat i la de les seves propietats.
 icon: sl-small-bricks
-image: /assets/images/samples/750x500/image_01.jpg
-image2: /assets/images/samples/750x500/image_07.jpg
-date: 2018-01-13 19:07:00 +01:00
-layout: service-detail
+published: true
 ---
 **Protegint la seva integritat i la de les seves propietats.**
 
