@@ -55,16 +55,20 @@ layout: default
       </div>
       <div class="column column-3-4">
         <div class="row">
+        {% if page.image %}
           <div class="column column-1-2">
             <a href="{{page.image}}" class="prettyPhoto re-preload" title="{{page.title}}">
               <img src="{{page.image}}" alt="img" style="display: block;">
             </a>
           </div>
+        {% endif %}
+        {% if page.image2 %}
           <div class="column column-1-2">
             <a href="{{page.image2}}" class="prettyPhoto re-preload" title="{{page.title}}">
               <img src="{{page.image2}}" alt="img" style="display: block;">
             </a>
           </div>
+        {% endif %}
         </div>
         {% if content %}
         <div class="row page-margin-top">
