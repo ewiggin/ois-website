@@ -2,8 +2,10 @@
 
 // Instagram feed
 var feed = new Instafeed({
-	get: 'user',
-  	userId: '6903863335',
+	//get: 'user',
+	  //userId: '6903863335',
+	get: 'popular',
+	tagName: 'awesome',
 	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
 	template: '<a href="{{link}}" style="background-image: url("{{image}}");" class="prettyPhoto re-preload gallery-item"></a>'
 });
