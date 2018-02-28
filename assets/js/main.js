@@ -3,11 +3,11 @@
 // Instagram feed
 var feed = new Instafeed({
 	get: 'user',
-	userId: '270310401',
+	userId: '6903863335',
 	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
 	accessToken: '270310401.8f5a018.89fc3b904a194d9781d3c098c834a9b9',
 	resolution: 'standard_resolution',
-	template: '<li><a href="{{link}}" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a></li>'
+	template: '<li><a href="{{link}}" target="_blank" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a></li>'
 });
 feed.run();
 
