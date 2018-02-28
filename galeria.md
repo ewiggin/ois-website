@@ -33,6 +33,13 @@ layout: default
     </div>
     <div class="clearfix">
         <div class="row">
+            <div class="services-list clearfix padding-top-70">
+                <div id="instafeed"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+        <div class="row">
             <ul class="services-list clearfix padding-top-70">
                 {% for image in site.static_files %}
                     {% if image.path contains 'gallery' %}

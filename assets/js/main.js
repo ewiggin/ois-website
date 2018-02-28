@@ -1,4 +1,16 @@
 "use strict";
+
+// Instagram feed
+var feed = new Instafeed({
+	get: 'user',
+  	userId: '6903863335',
+	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
+	template: '<a href="{{link}}" style="background-image: url("{{image}}");" class="prettyPhoto re-preload gallery-item"></a>'
+});
+feed.run();
+
+
+
 window.odometerOptions = {
   auto: true, // Don't automatically initialize everything with class 'odometer'
   selector: '.number.animated-element', // Change the selector used to automatically find things to be animated
