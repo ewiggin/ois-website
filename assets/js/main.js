@@ -6,7 +6,7 @@ var feed = new Instafeed({
 	userId: '270310401',
 	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
 	accessToken: '270310401.8f5a018.89fc3b904a194d9781d3c098c834a9b9',
-	template: '<a href="{{link}}" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a>'
+	template: '<li><a href="{{link}}" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a></li>'
 });
 feed.run();
 
