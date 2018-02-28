@@ -2,11 +2,10 @@
 
 // Instagram feed
 var feed = new Instafeed({
-	//get: 'user',
-	  //userId: '6903863335',
-	get: 'popular',
-	tagName: 'awesome',
+	get: 'user',
+	userId: '6903863335', // 8f5a018
 	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
+	access_token: '89fc3b904a194d9781d3c098c834a9b9',
 	template: '<a href="{{link}}" style="background-image: url("{{image}}");" class="prettyPhoto re-preload gallery-item"></a>'
 });
 feed.run();
