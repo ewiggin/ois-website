@@ -33,9 +33,7 @@ layout: default
     </div>
     <div class="clearfix">
         <div class="row">
-            <div class="services-list clearfix padding-top-70">
-                <div id="instafeed"></div>
-            </div>
+            <ul id="instafeed" class="services-list clearfix padding-top-70"></ul>
         </div>
     </div>
     <div class="clearfix">
