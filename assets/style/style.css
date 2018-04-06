@@ -2468,7 +2468,7 @@ span.odometer.number:after
 	border-color: #F4BC16;
 }
 /* --- list bullet --- */
-.blog-page li,
+.post-content li,
 .list li
 {
 	padding-top: 3px;
@@ -2478,13 +2478,13 @@ span.odometer.number:after
 	line-height: 24px;
 	padding-left: 30px;
 }
-.blog-page li a,
+.post-content li a,
 .list li a
 {
 	color: #F4BC16;
 	font-weight: 600;
 }
-.blog-page li:before,
+.post-content li:before,
 li.template-bullet:before
 {
 	color: #F4BC16;

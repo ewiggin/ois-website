@@ -65,6 +65,7 @@
 .template-arrow-circle-right:before {
   content: "h";
 }
+.post-content li:before,
 .template-bullet:before {
   content: "i";
 }
