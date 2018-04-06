@@ -13,7 +13,7 @@ layout: default
 					<div class="bread-crumb-container">
 						<ul class="bread-crumb">
 							<li>
-								<a title="BLOG" href="index.html%3Fpage=blog.html">
+								<a title="BLOG" href="/actualitat">
 									ACTUALITAT
 								</a>
 							</li>

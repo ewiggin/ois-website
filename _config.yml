@@ -5,6 +5,7 @@ url: https://obresiserveiscarmelo.com
 permalink: pretty
 plugins:
   - jekyll-sitemap
+excerpt_separator: <!--more-->
 collections:
   projectes:
     output: true
