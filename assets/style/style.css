@@ -44,6 +44,7 @@ p
 	color: #444;
 	line-height: 150%;
 }
+.description p,
 p.description
 {
 	font-family: 'Raleway';
@@ -52,6 +53,7 @@ p.description
 	padding: 0;
 	margin-top: 34px;
 }
+.description.t1 p,
 p.description.t1
 {
 	font-family: 'Raleway';
