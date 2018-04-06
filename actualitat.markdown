@@ -30,7 +30,7 @@ layout: default
         </div>
     </div>
 </div>
-<div class="clearfix">
+<div class="clearfix padding-bottom-66">
     <div class="row margin-top-70">
         <ul class="blog two-columns clearfix">
             {% for post in site.posts %}
