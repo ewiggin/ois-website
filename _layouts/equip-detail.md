@@ -73,9 +73,9 @@ layout: default
       </div>
       <div class="column column-1-3">
         <h3 class="box-header">PERFIL</h3>
-        <p class="description t1 margin-top-34">
+        <div class="description t1 margin-top-34">
           {{content}}
-        </p>
+        </div>
       </div>
     </div>
     <div class="row top-border page-margin-top-section full-width">
