@@ -21,13 +21,15 @@ prose:
   media: uploads
   ignore:
     - index.md
-    - clients.md
+    - clients.markdown
     - 404.markdown
     - .gitignore
     - favicon.ico
     - contacte.md
     - home.markdown
     - projectes.markdown
+    - galeria.md
+    - actualitat.markdown
     - CNAME
     - serveis.md
     - style.css
