@@ -47,9 +47,9 @@ layout: default
                         <img src="{{post.image}}" alt="" style="display: block;">
                     </a>
                     <h3 class="box-header align-left"><a href="{{post.url}}">{{post.title}}</a></h3>
-                    <p class="description t1">
+                    <div class="description t1">
                         {{ post.excerpt }}
-                    </p>
+                    </div>
                     <div class="row padding-top-54 padding-bottom-17">
                         <a class="more" href="{{post.url}}" title="LLEGIR MÉS">LLEGIR MÉS</a>
                     </div>
