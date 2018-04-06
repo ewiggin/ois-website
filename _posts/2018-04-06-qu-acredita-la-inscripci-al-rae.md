@@ -5,7 +5,6 @@ layout: post-detail
 published: true
 title: Què acredita la inscripció al RAE?
 ---
-## Acreditació de qualitat
 
 Les empreses que volen intervenir en un procés de contractació o subcontractació en el sector de la construcció s'han d'inscriure al Registre d'empreses acreditades (REA). També s'hi han de registrar les empreses que desplacin treballadors a altres comunitats autònomes quan la seva primera prestació de serveis s'hagi de dur a terme en l'àmbit territorial de Catalunya.
 
