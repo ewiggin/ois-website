@@ -74,7 +74,7 @@ layout: default
         <div class="row page-margin-top">
           <div class="column-1-1">
             <h3 class="box-header">DESCRIPCIÓ DEL SERVEI</h3>
-            <p class="description t1">{{content}}</p>
+            <div class="description t1">{{content}}</div>
           </div>
         </div>
         {% endif %}
