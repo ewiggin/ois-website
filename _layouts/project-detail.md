@@ -44,9 +44,9 @@ layout: default
       </div>
       <div class="column column-1-2">
         <h3 class="box-header">BREU DESCRIPCIÓ</h3>
-        <p class="description t1">
+        <div class="description t1">
           {{content}}
-        </p>
+        </div>
         <h4 class="box-header page-margin-top">D'UNA ULLADA</h4>
         <table class="margin-top-40">
           <tbody>
