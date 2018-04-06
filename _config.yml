@@ -1,0 +1,201 @@
+---
+title: Obres i Serveis Carmelo
+timezone: Europe/Madrid
+url: https://obresiserveiscarmelo.com
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+collections:
+  projectes:
+    output: true
+    permalink: /:collection/:name
+  serveis:
+    output: true
+    permalink: /:collection/:name
+  clients:
+    output: true
+    permalink: /:collection/:name
+prose:
+  siteurl: https://obresiserveiscarmelo.com
+  media: uploads
+  ignore:
+    - index.md
+    - clients.md
+    - 404.markdown
+    - .gitignore
+    - favicon.ico
+    - contacte.md
+    - home.markdown
+    - projectes.markdown
+    - CNAME
+    - serveis.md
+    - style.css
+    - _config.yml
+    - /_layouts
+    - /_plugins
+    - /_includes
+    - /assets
+    - /_includes
+  metadata:
+    _clients:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Nombre"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Logotipo"
+          value: ""
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post-detail"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Imagen de portada"
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+    _projectes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "project-detail"
+      - name: "category"
+        field:
+          element: "text"
+          label: "Categoría"
+          value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "cover"
+        field:
+          element: "text"
+          label: "Portada"
+          value: ""
+      - name: "image1"
+        field:
+          element: "text"
+          label: "Imagen principal"
+          value: ""
+      - name: "image2"
+        field:
+          element: "text"
+          label: "Imagen 2"
+          value: ""
+      - name: "image3"
+        field:
+          element: "text"
+          label: "Imagen 3"
+          value: ""
+      - name: "image4"
+        field:
+          element: "text"
+          label: "Imagen 4"
+          value: ""
+      - name: "type"
+        field:
+          element: "text"
+          label: "Tipo de proyecto"
+          value: ""
+      - name: "client"
+        field:
+          element: "text"
+          label: "Nombre cliente"
+          value: ""
+      - name: "finish_at"
+        field:
+          element: "text"
+          label: "Proyecto acabado el"
+          value: ""
+      - name: "size"
+        field:
+          element: "text"
+          label: "Envergadura"
+          value: ""
+      - name: "price"
+        field:
+          element: "text"
+          label: "Coste aprox."
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+    _serveis:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "servei-detail"
+      - name: "name"
+        field:
+          element: "text"
+          label: "Nombre"
+          value: ""
+      - name: "claim"
+        field:
+          element: "text"
+          label: "Eslogan"
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "image"
+        field:
+          element: "text"
+          label: "Imagen principal"
+          value: ""
+      - name: "image2"
+        field:
+          element: "text"
+          label: "Imagen secundaria"
+          value: ""
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+      - name: "icon"
+        field:
+          element: "select"
+          label: "Icono"
+          value: "sl-small-bricks"
+          options:
+            - name: "Bricks"
+              value: "sl-small-bricks"
+            - name: "House"
+              value: 'sl-small-house-2'

@@ -1,0 +1,57 @@
+
+/* MAIN */
+body {
+  margin: 0;
+  font-family: "Raleway";
+}
+
+.logo {
+  text-transform: uppercase;
+}
+.logo span {
+  color: #222;
+  display:block;
+}
+
+.building {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #fff;
+  padding: 40px;
+  opacity: 0.8;
+}
+
+hr {
+  width: 5%;
+  border:0;
+  border-bottom: 1px solid #ccc;
+}
+
+address {
+  text-transform: none;
+  font-size: 14px;
+}
+
+address a {
+  color: #F4BC16;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0 24px;
+  height: 250px;
+  display: block;
+}
+
+.post.single p {
+  margin-top: 0 !important;
+}
