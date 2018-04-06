@@ -7,11 +7,11 @@ layout: default
     <div class="row full-width padding-top-bottom-50 vertical-align-cell">
         <div class="row">
             <div class="page-header-left">
-                <h1>BLOG 2 COLUMNS</h1>
+                <h1>ACTUALITAT</h1>
             </div>
             <div class="page-header-right">
                 <div class="bread-crumb-container">
-                    <label>You Are Here:</label>
+                    <label>Ets aquí:</label>
                     <ul class="bread-crumb">
                         <li>
                             <a title="HOME" href="/">
