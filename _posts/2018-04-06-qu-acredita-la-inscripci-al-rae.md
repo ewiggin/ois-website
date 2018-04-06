@@ -2,7 +2,7 @@
 author: ewiggin
 date: '2018-04-06 18:33 +0200'
 layout: post-detail
-published: false
+published: true
 title: Què acredita la inscripció al RAE?
 ---
 ## Acreditació de qualitat
@@ -16,5 +16,3 @@ La inscripció d'**obres i serveis Carmelo** al Registre d'Empreses Acreditades 
 - Una organització preventiva adequada.  
 
 - Personal amb la formació necessària en matèria de prevenció de riscos laborals.
-
-
