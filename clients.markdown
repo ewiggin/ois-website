@@ -7,7 +7,7 @@ layout: default
 <div class="row gray full-width page-padding-top-section padding-bottom-66">
   <div class="row">
     <h2 class="box-header">ELS NOSTRES CLIENTS</h2>
-    <p class="description t1 margin-top-34">
+    <p class="description t1 margin-top-34 align-center">
       Gràcies a tots els nostres clients: particulars i empreses, pel malbaratament d'enginy que ens heu trasmes, hem crecut profesionalment amb vosaltres.
     </p>
     <div class="our-clients-list-container page-margin-top">
