@@ -9,7 +9,7 @@ layout: default
     <div class="row margin-top-70">
         <div class="column column-1-2 align-center re-preload">
             <div class="image-wrapper">
-                <img src="/assets/images/samples/750x500/image_03.jpg" alt="" class="radius" style="display: block;">
+                <img src="/assets/images/samples/750x500/image_03.jpg" alt="" style="display: block;">
             </div>
         </div>
         {% include why_us.html %}
