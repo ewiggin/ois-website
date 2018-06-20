@@ -14,8 +14,10 @@ layout: default
 	</div>
 	<div class="clearfix">
 		<div class="row margin-top-70">
-			<div class="column column-1-4 re-smart-column">
-				{{content}}
+			<div class="column column-4-4">
+				<div class="description t1">
+					{{content}}
+				</div>
 			</div>
 		</div>
 	</div>
