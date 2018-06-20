@@ -1,7 +1,8 @@
 ---
 title: Avís legal
 date: 2018-06-19 18:00:00 +01:00
-layout: default
+layout: post-detail
+published: true
 ---
 
 ## AVÍS LEGAL I POLÍTICA DE PRIVACITAT
