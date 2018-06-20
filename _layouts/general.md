@@ -1,6 +1,6 @@
 ---
 name: General content
-layout: general
+layout: default
 ---
 <div class="theme-page blog-page padding-bottom-66">
 	<div class="row gray full-width page-header vertical-align-table">
