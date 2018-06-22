@@ -51,3 +51,4 @@ layout: default
         </div>
     </div>
 </div>
+<script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
