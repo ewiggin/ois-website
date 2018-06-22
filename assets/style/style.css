@@ -1,3 +1,6 @@
+.CookieDeclaration {
+	display: none;
+}
 /* --- general --- */
 .clearfix:after
 {

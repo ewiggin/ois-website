@@ -1,15 +1,17 @@
 "use strict";
 
-// Instagram feed
-var feed = new Instafeed({
-	get: 'user',
-	userId: '6903863335',
-	clientId: '8f5a018f32dc4454add0ccdd11c74d05',
-	accessToken: '6903863335.8f5a018.6ef8db93a33e4b499be2bc02a5a7e4c1',
-	resolution: 'standard_resolution',
-	template: '<li><a href="{{link}}" target="_blank" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a></li>'
-});
-feed.run();
+if (typeof Instafeed !== 'undefined') {
+	// Instagram feed
+	var feed = new Instafeed({
+		get: 'user',
+		userId: '6903863335',
+		clientId: '8f5a018f32dc4454add0ccdd11c74d05',
+		accessToken: '6903863335.8f5a018.6ef8db93a33e4b499be2bc02a5a7e4c1',
+		resolution: 'standard_resolution',
+		template: '<li><a href="{{link}}" target="_blank" style="background-image: url({{image}});" class="prettyPhoto re-preload gallery-item"></a></li>'
+	});
+	feed.run();
+}
 
 
 
