@@ -1,6 +1,11 @@
 .CookieDeclaration {
 	display: none;
 }
+
+.avis-legal h3 {
+	padding-top: 25px;
+}
+
 /* --- general --- */
 .clearfix:after
 {

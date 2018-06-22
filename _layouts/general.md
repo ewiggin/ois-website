@@ -2,7 +2,7 @@
 name: General content
 layout: default
 ---
-<div class="theme-page blog-page padding-bottom-66">
+<div class="theme-page blog-page padding-bottom-66 {{page.url}}">
 	<div class="row gray full-width page-header vertical-align-table">
 		<div class="row full-width padding-top-bottom-50 vertical-align-cell">
 			<div class="row">
