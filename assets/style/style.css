@@ -2,6 +2,7 @@
 	display: none;
 }
 
+.general-content h3,
 .avis-legal h3 {
 	padding-top: 25px;
 }
