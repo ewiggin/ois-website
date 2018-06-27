@@ -29,7 +29,7 @@ Tots els drets de propietat industrial i intel·lectual de la totalitat d'elemen
 comercials, formats, dissenys gràfics, textos, imatges i documents, pertanyen a i es troben protegits per les lleis
 espanyoles i internacionals sobre propietat Intel·lectual i Industrial. Queda expressament prohibida la reproducció total o
 parcial d'aquest lloc web i de qualsevol dels seus continguts sense el permís exprés i per escrit de CARMELO.
-L'accés al lloc web no implica cap tipus de renúncia, transmissió, llicència o cessió d'aquests drets per part de , llevat que
+L'accés al lloc web no implica cap tipus de renúncia, transmissió, llicència o cessió d'aquests drets per part de CARMELO, llevat que
 s'estableixi expressament el contrari.
 
 ### CONDICIONS D'ÚS
@@ -46,7 +46,7 @@ de qui ho realitza.
 
 L'usuari s'obliga a no utilitzar la informació que es publica en aquest web amb fins o efectes il·lícits o lesius, a no danyar o
 inutilitzar la informació ia no realitzar qualsevol altra acció que puguin ser contrària al contingut d'aquest Avís Legal.
-no pot assegurar la inexistència d'interrupcions o errors en l'accés a aquest lloc web, tot i que posarà els seus majors
+CARMELO no pot assegurar la inexistència d'interrupcions o errors en l'accés a aquest lloc web, tot i que posarà els seus majors
 esforços per evitar-los.
 
 ### POLÍTICA DE PROTECCIÓ DE DADES
